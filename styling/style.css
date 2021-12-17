@@ -1,0 +1,8332 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,400i,500,600,800");
+
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,400i,500,600,800");
+
+textarea {
+  overflow-x: hidden;
+}
+
+body {
+  color: #333;
+  font: 300 15px/15px Roboto, Arial, Helvetica;
+  -webkit-font-smoothing: antialiased;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100% !important;
+}
+
+#loader_id {
+  float: right;
+  margin-top: 50px !important;
+  margin-right: 45px !important;
+}
+
+div#cookie-msg {
+  z-index: 99999;
+}
+
+#popdown-opacity,
+.popdown-done {
+  width: 100% !important;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.p-y-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.p-t-100 {
+  padding-top: 100px;
+}
+
+.p-b-100 {
+  padding-bottom: 100px;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+.p-0 {
+  padding: 0 !important;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.desktop {
+  display: block;
+}
+
+.mobile {
+  display: none;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.navbar-brand {
+  padding: 3px 15px !important;
+}
+
+.navbar-brand img {
+  width: 400px;
+  height: 50px;
+  margin: 2px 0;
+}
+
+.navbar-collapse {
+  overflow-x: hidden;
+}
+
+.navbar-right {
+  height: 100%;
+  padding: 0px;
+}
+
+a {
+  color: #00a9c6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: none;
+}
+
+button:focus,
+a:focus {
+  text-decoration: none;
+  border: 0;
+}
+
+.btn,
+a,
+.btn:hover,
+a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  line-height: 1em;
+}
+
+h1 {
+  font: 700 5em Roboto, Arial, Helvetica;
+  text-transform: uppercase;
+}
+
+h2 {
+  font: 300 2.5em Roboto, Arial, Helvetica;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font: 300 2em Roboto, Arial, Helvetica;
+  margin: 2em 0 1em 0;
+}
+
+h4 {
+  font: 300 1.5em Roboto, Arial, Helvetica;
+  margin-bottom: 1em;
+}
+
+h4 i {
+  margin-right: 0.5em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin-bottom: 1.7em;
+}
+
+h1 p {
+  color: #000000;
+  font-size: 0.01em;
+}
+
+.display_nen_picture {
+  display: none;
+}
+
+.spacer {
+  padding: 4em 0;
+}
+
+.glyphicon-chevron-right:before {
+  content: no-close-quote !important;
+}
+
+.glyphicon-chevron-left:before {
+  content: no-close-quote !important;
+}
+
+.btn {
+  border: none;
+  border-radius: 0;
+  padding: 1em 4em;
+  background: rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
+}
+
+.btn:hover,
+.btn:active {
+  color: #fff;
+}
+
+.active-2 {
+  background-color: rgb(58, 72, 165);
+}
+
+.btn-default {
+  color: #ccc;
+  border: 1px solid #aaa;
+}
+
+.btn-default:hover,
+.btn-default:active {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.btn-primary {
+  color: #fff;
+  background: linear-gradient(
+    to top,
+    rgba(58, 72, 165, 1) 30%,
+    rgba(97, 118, 255, 1) 100%
+  );
+  margin-top: 10px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 0;
+  width: 150px;
+  height: 46px;
+}
+
+.btn-primary:hover,
+.btn-primary:active {
+  background: linear-gradient(
+    to bottom,
+    rgba(58, 72, 165, 1) 30%,
+    rgba(97, 118, 255, 1) 100%
+  );
+  box-shadow: none;
+}
+
+.btn-primary:focus {
+  background: linear-gradient(
+    to top,
+    rgba(58, 72, 165, 1) 30%,
+    rgba(97, 118, 255, 1) 100%
+  );
+  box-shadow: none;
+}
+
+.topbar {
+  height: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.inputs-container {
+  width: 200px;
+  padding: 0 10px;
+  margin: 0 15px;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.team_member {
+  color: #808080;
+  background-color: #f7f7f7;
+  padding: 10px;
+  text-align: left;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+/*============================================================
+Home
+==============================================================*/
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.m-fadeOut {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.navbar-nav > li {
+  height: 100%;
+  position: relative;
+}
+
+.navbar-nav > li > a {
+  font-size: 1em;
+  height: 100%;
+  color: #ffffff !important;
+  font-weight: 500 !important;
+  font-size: 18px;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  vertical-align: middle;
+  line-height: 30px;
+  font-family: "Barlow", sans-serif;
+}
+
+ul.nav li a.hvr-underline-from-center::before {
+  color: #fff;
+  background: #fff;
+}
+
+.navbar-inverse {
+  background: transparent;
+  border-color: transparent;
+  height: 60px;
+  max-width: 100%;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  background: none;
+  font-weight: bold;
+  color: #f7931e;
+}
+
+#head,
+.carousel {
+  margin-top: 90px;
+}
+
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-inner {
+  min-height: 100% !important;
+}
+
+.carousel {
+  margin-top: 10px;
+  height: 100%;
+}
+
+.bannerText {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  display: inline-block;
+}
+
+.bannerText p {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 0px !important;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+.bannerText img {
+  position: relative;
+  left: 30px;
+}
+
+p.smallText {
+  font-size: 18px;
+  color: #3a48a5;
+  font-weight: 400;
+  text-transform: none;
+  line-height: 20px;
+  max-width: 655px;
+}
+
+.smallTextMed {
+  font-weight: 500;
+}
+
+.icons-gradient-back1 {
+  width: 40%;
+}
+
+.icons-gradient-back2 {
+  width: 60%;
+}
+
+.icons-gradient-back1,
+.icons-gradient-back2 {
+  position: absolute;
+  height: 100%;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=1);
+}
+
+.icons-gradient-back2 {
+  left: 0;
+  background: rgba(255, 255, 255, 0);
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 1) 50%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(0, rgba(255, 255, 255, 0)),
+    color-stop(50%, rgba(255, 255, 255, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 1) 50%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 1) 50%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0) 0,
+    rgba(255, 255, 255, 1) 50%
+  );
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) -15%,
+    rgba(58, 72, 165, 0.88) 106%
+  );
+}
+
+.icons-gradient-back1 {
+  right: 0;
+  background: -moz-linear-gradient(
+    left,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right top,
+    color-stop(50%, rgba(255, 255, 255, 1)),
+    color-stop(100%, rgba(255, 255, 255, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: -ms-linear-gradient(
+    left,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background: linear-gradient(
+    to left,
+    rgba(58, 72, 167, 1) 50%,
+    rgba(58, 72, 165, 0.82) 100%
+  );
+}
+
+.icons-wrapper > div {
+  display: inline-block;
+  width: 33%;
+  margin-left: -100px;
+}
+
+.navbar-inverse .navbar-collapse {
+  width: 67%;
+  float: right;
+}
+
+.container.topCornerText {
+  height: 0 !important;
+}
+
+.cornerText {
+  font-size: 28px;
+  font-weight: 400;
+  color: rgb(58, 72, 165);
+  position: absolute;
+  top: 85px;
+  margin-left: -85px;
+  word-spacing: 4px;
+}
+
+.willcomenText,
+.beratenText {
+  color: rgb(58, 72, 165);
+}
+
+.kompetentText {
+  text-transform: none !important;
+  color: #696969;
+}
+
+#home {
+  position: relative;
+  height: calc(100vh + 40px);
+  margin-top: -40px;
+}
+
+#home .desktop .item {
+  height: calc(100vh + 40px);
+}
+
+.carousel-inner img {
+  margin-top: 0;
+}
+
+.bottomIcons {
+  width: 1200px;
+  height: 800px;
+  margin: auto;
+  z-index: 10;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -665px;
+  background-color: #ffffff;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.bottomSingleIcon {
+  display: inline-table;
+  width: 95px;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  margin-top: -40px;
+  left: 0px;
+  right: 0px;
+}
+
+.bottomSingleIcon img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottomAllIcons {
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+}
+
+.bottomAllIcons img:first-child {
+  width: 64px;
+  max-width: 19%;
+}
+
+.bottomAllIcons img + img {
+  width: 135px;
+  max-width: 40%;
+}
+
+.underline_slide {
+  z-index: 888;
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+
+.mobile_underline {
+  display: none;
+}
+
+/*============================================================
+Notification bar
+==============================================================*/
+
+/*============================================================
+corona virus notification start
+==============================================================*/
+.notification-part {
+  position: absolute;
+  top: 79px;
+  right: 40px;
+  width: 700px;
+  background-image: linear-gradient(#3a48a5, #4e5fd2, #6176ff);
+  background-image: linear-gradient(#3a48a5, #4e5fd2, #6176ff);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 40px 30px;
+}
+
+.notification-part h6 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  margin: 0;
+}
+
+.notification-part p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: lighter;
+  margin: 0;
+}
+
+.notification-part p a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.notification-part p:nth-child(3) {
+  margin-top: 10px;
+}
+
+.notification-part p:nth-child(4) {
+  margin-bottom: 10px;
+}
+
+/*============================================================
+corona virus notification end
+==============================================================*/
+.notificationsBar {
+  position: relative;
+  height: 0;
+}
+
+.notification.big {
+  height: 285px;
+}
+
+.notification {
+  float: right;
+  position: fixed;
+  width: 570px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  right: 0;
+  font-family: "Barlow";
+  z-index: 888;
+}
+
+.notification:nth-child(2) {
+  height: 165px;
+}
+
+.notification:nth-child(3) {
+  top: 640px;
+  background-image: linear-gradient(#6176ff, #3a48a5);
+}
+
+.notification:nth-child(3) .ntfc-image img {
+  margin: 41px 20px;
+  height: 30px;
+}
+
+.notification:nth-child(3) .ntfc-description p.title {
+  line-height: 18px;
+  margin-bottom: 0;
+}
+
+.ntfcb-t-200 {
+  top: 400px;
+  background-image: linear-gradient(#6176ff, #3a48a5);
+}
+
+.ntfcb-t-400 {
+  top: 500px;
+  background-image: linear-gradient(#f89a03, #f76d1b);
+}
+
+.notification .close-ntfc {
+  float: left;
+  opacity: 1;
+  position: absolute;
+  bottom: -8px;
+  left: -8px;
+}
+
+.notification .close-ntfc .close,
+.notification .close-ntfc .close:hover,
+.notification .close-ntfc .close:focus,
+.notification-mini .close-ntfc .close,
+.notification-mini .close-ntfc .close:hover,
+.notification-mini .close-ntfc .close:focus {
+  opacity: 1;
+}
+
+.notification .close-ntfc .close {
+  transition: all 0.2s ease-in-out;
+}
+
+.notification .close-ntfc .close:hover {
+  transform: scale(1.2);
+}
+
+.ntfc-mini-description {
+  width: 520px;
+  border-bottom: 1px solid #fff;
+  margin: 0 auto;
+}
+
+.ntfc-mini-description p.title {
+  font-weight: 800;
+  font-size: 30px;
+  margin: 0;
+  text-align: left;
+  padding-left: 20px;
+  color: #fff;
+  font-style: italic;
+}
+
+p.alert-text {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffee58;
+  line-height: 28px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.ntfc-image {
+  float: left;
+  width: 150px;
+}
+
+.ntfc-image img {
+  margin: 13px 26px;
+}
+
+.ntfc-description {
+  float: left;
+  width: 420px;
+  color: #fff;
+}
+
+.ntfc-description p.title {
+  font-weight: 500;
+  font-size: 24px;
+  margin: 8px 0;
+  font-style: italic;
+}
+
+.bottom-part-description {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.bottom-part-description button {
+  float: left;
+  width: 170px;
+  height: 40px;
+  background-color: #fff;
+  border: 0;
+  color: rgb(58, 72, 165);
+  font-weight: 500;
+  font-size: 18px;
+  margin: 14px 0;
+}
+
+.bottom-part-description p.price {
+  float: right;
+  margin-right: 25px;
+  font-size: 21px;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+#unsereEmpfehlung {
+  text-align: center;
+  height: auto !important;
+}
+
+.news-boxes {
+  margin: 80px 0 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box-news {
+  width: 270px;
+  height: 450px;
+  border: 1px solid #f7f7f7;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.blue .title-box {
+  line-height: 1.2em;
+}
+
+.border-top {
+  margin: 0px;
+  padding: 3px 0;
+}
+
+.blue .border-top {
+  background-image: linear-gradient(#6176ff, #3a48a5);
+}
+
+.orange .border-top {
+  background-image: linear-gradient(#f89a03, #ee610c);
+}
+
+.aqua .border-top {
+  background-image: linear-gradient(#6bdbee, #316086);
+}
+
+.green .border-top {
+  background-image: linear-gradient(#6feebf, #0ba945);
+}
+
+.border-top h3 {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 8px 0 9px;
+  font-weight: 400;
+}
+
+.title-box {
+  font-size: 16px;
+  color: rgb(58, 72, 165);
+  font-weight: normal;
+  font-family: "Barlow";
+  margin-top: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.box-news h2 {
+  font-size: 19px;
+  color: #403e3e;
+  font-family: "Barlow";
+  font-weight: bold;
+  text-transform: none;
+  margin: 0;
+}
+
+.img-box {
+  margin-bottom: 20px !important;
+}
+
+.orange .img-box,
+.green .img-box {
+  margin-top: 55px;
+}
+
+.aqua .img-box {
+  margin-top: 75px;
+}
+
+.aqua h1 {
+  margin-top: 20px;
+}
+
+.desv-box {
+  color: #403e3e;
+  font-size: 16px;
+  font-family: "Barlow";
+  margin-bottom: 0;
+}
+
+span.price-jahr {
+  font-size: 20px;
+  color: #ff0707;
+  line-height: 0;
+  font-family: "Barlow";
+  font-style: italic;
+  line-height: 50px;
+}
+
+.box-news a {
+  position: absolute;
+  margin-top: 0;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+
+.box-news button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid rgb(58, 72, 165);
+  color: #3a48a5;
+  background: transparent;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.orange button {
+  margin-top: 52px;
+}
+
+.aqua button {
+  margin-top: 52px;
+}
+
+.green button {
+  margin-top: 76px;
+}
+
+.desv-box:nth-child(5) {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.desv-box:nth-child(6) {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.desv-box:nth-child(6) span {
+  line-height: 1px;
+}
+
+/*============================================================
+About
+==============================================================*/
+#about {
+  position: relative;
+  height: 100% !important;
+  padding-bottom: 80px;
+}
+
+#about h1 {
+  text-transform: initial;
+}
+
+.about h1 {
+  padding-top: 50px;
+}
+
+span.red {
+  color: red;
+}
+
+.about.spacer {
+  height: 100vh !important;
+  background-color: #f7f7f7;
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.insurance-app {
+  width: 100%;
+  height: 625px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about h1,
+#works h1,
+#news h1,
+#uberuns h1,
+#team h1,
+#contact h1,
+#unsereEmpfehlung h1,
+.popdown-content-impressum h1 {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(58, 72, 165);
+  visibility: visible !important;
+  margin-bottom: 15px;
+}
+
+#team h1 {
+  font-weight: 600;
+}
+
+.popdown-content-impressum h1 {
+  width: calc(100% - 30px);
+  padding-left: 30px;
+}
+
+.about img {
+  margin-bottom: 3em;
+  margin-left: 30px;
+  margin-right: 30px;
+  transition: transform 0.2s;
+}
+
+.insurance-app img:nth-child(3):hover {
+  transform: none;
+}
+
+.insurance-app img {
+  width: 175px;
+}
+
+.security-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.security-element {
+  flex: 0 0 25%;
+  width: 25%;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.security-element p:nth-child(3) {
+  display: none;
+}
+
+.downloadPlaces {
+  align-items: center;
+  justify-content: center;
+}
+
+.downloadPlaces img,
+.downloadPlaces p {
+  display: inline-block;
+}
+
+.downloadPlaces img {
+  transition: all 0.2s ease-in-out;
+}
+
+.downloadPlaces img:hover {
+  transform: scale(1.1);
+}
+
+.downloadPlaces p {
+  color: rgb(58, 72, 165);
+  font-size: 24px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: auto;
+  vertical-align: super;
+  margin: 0px 10px 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.downloadPlaces p:hover {
+  transform: scale(1.2);
+}
+
+a.jetzt_testen {
+  color: #fff;
+  background-color: #3a48a5;
+  font-size: 20px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-style: normal;
+  text-transform: uppercase;
+  margin: 60px auto;
+  vertical-align: super;
+  transition: all 0.2s ease-in-out;
+  padding: 15px 30px;
+  display: inline-block;
+}
+
+a.jetzt_testen:hover {
+  -webkit-transform: scale(1.1); /* Chrome, Safari, Opera */
+  transform: scale(1.1);
+}
+
+span.downloadNow {
+  display: flex;
+  flex-direction: column;
+}
+
+.downloadNow img {
+  margin-bottom: 10px;
+  margin-top: -60px;
+}
+
+.video-fluid-container {
+  margin: 0 0 30px;
+  border-top: 20px solid #174090;
+  border-bottom: 20px solid #174090;
+}
+
+.video-container {
+  padding: 120px 0 130px;
+  position: relative;
+}
+
+.video-container video {
+  object-fit: cover;
+}
+
+.video-container button {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*============================================================
+Works
+==============================================================*/
+#works {
+  height: 100vh !important;
+  padding-top: 6em;
+  text-align: center;
+}
+
+#works img {
+  display: flex;
+  margin: 10px auto 15px;
+  text-align: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+#textIssues {
+  min-height: 324px;
+  background: #f8f8f8;
+  border: 0;
+  outline: none;
+  padding-left: 5px;
+  font-size: 14px;
+}
+
+ul.listTabs {
+  margin: 60px 0px 10px 0px;
+  padding: 0px 0px 0px 5px;
+  list-style: none;
+  display: -webkit-inline-box;
+  text-align: center;
+  height: 60px;
+}
+
+ul.listTabs li {
+  float: left;
+  margin: 0;
+  cursor: pointer;
+  width: 150px;
+  height: 31px;
+  line-height: 31px;
+  color: rgb(58, 72, 165);
+  font-size: 20px;
+  overflow: hidden;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-style: normal;
+  position: relative;
+}
+
+ul.listTabs li.active {
+  background-color: #fff;
+  border-bottom: 2px solid rgb(58, 72, 165);
+  display: block;
+}
+
+.tab_container {
+  border-top: none;
+  clear: both;
+  float: left;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+
+.tab_content {
+  text-align: center;
+  min-height: 400px;
+  margin-top: 50px;
+}
+
+.tab_content div.col-md-3 {
+  display: grid;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 0;
+}
+
+.tab_content img {
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+  width: 85px;
+  height: 60px;
+}
+
+.tab_content p {
+  color: #808080;
+  font-size: 20px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-style: normal;
+  margin: auto;
+  vertical-align: super;
+  display: contents;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.tab_drawer_heading {
+  display: none;
+}
+
+.schaden_melden-buttons {
+  display: flex;
+  clear: left;
+  padding: 0 !important;
+  width: 200px;
+  justify-content: space-between;
+}
+
+#krankenkasse:hover p,
+#autoversicherung:hover p,
+#hausratversicherung:hover p,
+#privathaftpflicht:hover p,
+#rechtsschutz:hover p,
+#lebensversicherung:hover p,
+#reiseversicherung:hover p,
+#gebaudeversicherung:hover p,
+#kautionsversicherung:hover p,
+#saule:hover p,
+#erwerbsunfahigkeit:hover p,
+#hypothek:hover p {
+  color: rgb(58, 72, 165);
+}
+
+/*============================================================
+Testimonials
+==============================================================*/
+#partners {
+  background: url(../images/logo_bg.png) #f7f7f7;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  justify-content: normal;
+}
+
+#partners h2 {
+  text-transform: uppercase !important;
+}
+
+.partners-container {
+  width: 800px;
+  height: 460px;
+}
+
+.ratingStars img {
+  width: 25px;
+  height: 25px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.ratingNr {
+  margin-bottom: 0px;
+  color: #808080;
+  font-size: 30px;
+  font-family: "Barlow";
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ratingDesc {
+  text-align: center;
+  color: #808080;
+  font-size: 14px;
+  font-family: "Barlow";
+  font-style: normal;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.testimonails span {
+  color: #808080;
+  font-size: 14px;
+  font-family: "Barlow";
+  font-style: normal;
+  float: left;
+  width: 100%;
+}
+
+.testimonails span:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500 !important;
+}
+
+.testimonails span:nth-child(3) {
+  font-style: italic;
+  font-weight: normal !important;
+  margin-bottom: 10px;
+  margin-top: 3px;
+}
+.bevertungen p {
+  display: inline-block;
+  color: #808080;
+  font-size: 12px;
+  font-family: "Barlow";
+  font-style: normal;
+}
+
+.bevertungen:hover p {
+  color: rgb(58, 72, 165);
+}
+
+.bevertungen img {
+  margin-bottom: 0px;
+  margin-left: 0;
+  margin-right: 0px;
+}
+
+.partners img {
+  float: left;
+  margin: 0 75px 30px 0;
+}
+
+.testimonails {
+  min-height: 195px;
+}
+
+.testimonails img {
+  margin-top: 5px;
+  margin-left: auto;
+}
+
+.testimonails img.img-circle.img-responsive {
+  width: 80px;
+  margin: 1em auto;
+}
+
+.carousel-indicators li {
+  border: 2px solid rgb(58, 72, 165);
+}
+
+.carousel-indicators {
+  bottom: 0;
+}
+
+a.carousel-control {
+  width: auto;
+}
+
+a.carousel-control.left {
+  left: -60px;
+}
+
+a.carousel-control.right {
+  right: -60px;
+}
+
+/*============================================================
+News
+==============================================================*/
+#news {
+  text-align: center;
+}
+
+#news img {
+  margin-bottom: 3em;
+}
+
+.newsContainer {
+  height: auto !important;
+}
+
+.newsContainerItem {
+  height: 226px;
+  background-color: #f7f7f7;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.newsContainerItem:nth-child(2),
+.newsContainerItem:nth-child(2) .newsItemImage img {
+  height: 230px;
+}
+
+.underlineNews {
+  width: 100%;
+  height: 4px;
+}
+
+.newsItemImage,
+.newsItemDesc {
+  height: 100%;
+  padding: 0;
+}
+
+.newsItemImage {
+  width: 27%;
+}
+
+.newsItemImage img {
+  float: left;
+  height: 226px;
+  margin-bottom: 0 !important;
+  width: 100%;
+  object-fit: cover;
+}
+
+.newsItemDesc {
+  background-color: #f7f7f7;
+  margin-left: 10px;
+  width: 71% !important;
+  float: left;
+}
+
+.newsItemDesc p {
+  color: #808080;
+  font-family: "Barlow";
+  font-style: normal;
+  text-align: left;
+}
+
+.newsItemDesc > p:first-child {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.newsItemDesc > p.desc {
+  font-size: 18px;
+  line-height: 19px;
+  margin-bottom: 5px;
+}
+
+.newsItemDesc ul {
+  text-align: left;
+  font-family: "Barlow";
+  color: #808080;
+  padding-left: 18px;
+}
+
+.more-content {
+  display: none;
+}
+
+.more-content p {
+  font-family: "Barlow";
+  color: #808080;
+  text-align: left;
+  padding-top: 7px;
+  padding-left: 10px;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.cg-visible {
+  display: block;
+  float: left;
+  width: 100%;
+  background: #f7f7f7;
+  padding-right: 10px;
+}
+
+a.readmore {
+  position: absolute;
+  bottom: 0;
+  right: 11px;
+  color: rgb(58, 72, 165);
+}
+
+/*============================================================
+Uber uns
+==============================================================*/
+#uberuns {
+  height: auto !important;
+}
+
+#uberuns h2 {
+  text-transform: uppercase !important;
+}
+
+.uberuncContainer img {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.uberunsDesc {
+  padding: 0;
+}
+
+.uberunsDesc p {
+  color: #808080;
+  font-family: "Barlow";
+  font-size: 14px;
+  font-style: normal;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/*============================================================
+Team
+==============================================================*/
+#team {
+  width: 100%;
+  z-index: 100;
+  text-align: center;
+  padding: 0px !important;
+  background-image: linear-gradient(0.5turn, #f7f7f7 300px, #fff 300px);
+}
+
+.teamContainer {
+  padding: 0px 10px;
+  display: inline-block;
+}
+
+.teamContainer .col-md-2 {
+  text-align: center;
+  margin: 0px auto;
+  display: contents;
+}
+
+.teamContainer div img {
+  width: 180px;
+  border: 2px solid rgb(58, 72, 165);
+}
+
+.teamUnderline {
+  display: block;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  margin-bottom: 3em;
+}
+
+.teamContainer .content_img {
+  display: inline-block;
+  position: relative;
+  height: 224px;
+  width: 180px;
+  margin: 10px;
+}
+
+/* Child Text Container */
+.content_img .img_description_layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(58, 72, 165, 0.7);
+  color: white;
+  font-family: sans-serif;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+
+.content_img .image {
+  width: 180px;
+  height: 224px;
+}
+
+/* Hover on Parent Container */
+.content_img:hover {
+  cursor: pointer;
+}
+
+.content_img:hover .img_description_layer,
+.content_img .active {
+  opacity: 1;
+}
+
+p.name {
+  margin: 0;
+  position: absolute;
+  left: 10px;
+  top: 65%;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 500;
+  font-family: "Barlow", sans-serif;
+  line-height: 1.3;
+}
+
+p.desc {
+  font-size: 14px;
+  text-align: left;
+  margin-left: 10px;
+  font-weight: 500;
+  font-family: "Barlow", sans-serif;
+  margin-bottom: 10px;
+}
+
+p.team_member-position {
+  position: absolute;
+  top: 80%;
+  left: 10px;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.hideMe {
+  display: none;
+}
+
+.page {
+  height: auto;
+  background-color: #f7f7f7;
+  color: #808080;
+  margin: 15px -15px 15px 25px;
+  position: relative;
+  padding: 15px 0;
+}
+
+.page::before {
+  content: "";
+  position: absolute;
+  top: -9px;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid #f7f7f7;
+}
+
+.page:nth-child(1)::before {
+  left: 7%;
+}
+.page:nth-child(2)::before {
+  left: 23.5%;
+}
+.page:nth-child(3)::before {
+  left: 41%;
+}
+.page:nth-child(4)::before {
+  left: 58%;
+}
+.page:nth-child(5)::before {
+  left: 74.5%;
+}
+.page:nth-child(6)::before {
+  left: 91.5%;
+}
+
+.page p {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  padding: 0 10px;
+  text-align: left;
+  margin: 0;
+}
+
+.page p.register-no {
+  width: 100%;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+.contact-details {
+  text-align: left;
+  padding: 10px;
+  width: 400px;
+  display: grid;
+}
+
+.contact-details div,
+.contact-details span {
+  line-height: 25px;
+}
+
+.contact-details div.tel,
+.contact-details span.tel {
+  margin-bottom: 10px;
+}
+
+.contact-details img {
+  float: left;
+  width: 25px !important;
+  margin-right: 10px;
+  border: 0;
+  border: none !important;
+}
+
+.teamContainer a,
+.teamContainer a:focus {
+  color: #808080;
+  text-decoration: none;
+  border: 0;
+  font-weight: bold;
+}
+
+.leistungsausweis-teams h2 {
+  font-size: 24px !important;
+  font-style: italic !important;
+  text-transform: none !important;
+  margin-top: 22px;
+}
+
+.leistungsausweis-teams img.teamUnderline {
+  border: 0;
+}
+
+.line-team img {
+  float: left;
+  width: 20px !important;
+  height: 20px;
+  border: 0 !important;
+  margin-right: 20px;
+  margin-top: 3px;
+}
+
+span.line-team {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+span.line-team p {
+  float: left;
+  width: calc(100% - 30px);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #696969;
+  margin-bottom: 0;
+  font-family: "Barlow";
+  font-weight: 500;
+}
+
+span.line-team img {
+  margin-top: 5px;
+}
+
+/*============================================================
+Contact
+==============================================================*/
+#contact {
+  margin-top: 30px;
+  height: 1000px;
+}
+
+.contactContainer {
+  background-color: #ffffff;
+  height: 500px !important;
+  position: relative;
+  z-index: 10;
+  top: -275px;
+  padding: 0px;
+}
+
+.contactFormular {
+  height: 100%;
+  padding: 20px;
+  border: 1px solid #f8f8f8;
+  background-color: white;
+}
+
+.contactData {
+  background: linear-gradient(
+    to top,
+    rgba(58, 72, 165, 1) 30%,
+    rgba(97, 118, 255, 1) 100%
+  );
+  height: 100%;
+  padding: 20px;
+}
+
+.contactTitle {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: rgb(58, 72, 165);
+  margin-bottom: 10px;
+}
+
+.list svg.checkmark {
+  display: none;
+  position: absolute;
+  top: 35%;
+  left: 40%;
+  right: 40%;
+}
+
+#contactForma input,
+#contactForma textarea,
+#hypothekContactForm input,
+#hypothekContactForm textarea {
+  background-color: #f5f5f5;
+  width: 100%;
+  font-family: "Barlow";
+  font-weight: 200;
+  font-style: normal;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  color: #bbbbbb;
+}
+
+#contactForma textarea,
+#hypothekContactForm textarea {
+  resize: none;
+  margin-bottom: 10px;
+}
+#contactForma span.help-block.form-error {
+  position: static;
+}
+.contactName {
+  padding-left: 0px;
+}
+
+.contactEmail {
+  padding-right: 0px;
+}
+
+.contactData p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.contactData .col-xs-6 p {
+  border-bottom: 1px solid #fff;
+  margin-right: 9px;
+  width: 98%;
+  font-size: 12px;
+}
+
+.conctactLuzLogo {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.contactSocialMedia {
+  width: 100%;
+  display: flex;
+  margin: auto;
+}
+
+.contactSocialMedia a {
+  padding: 20px 20px 20px 0;
+  display: flex;
+  margin: 0;
+}
+
+.contactData .col-md-6 {
+  padding: 0;
+}
+
+.contactData .col-md-6.col-xs-6:before {
+  content: "\2022";
+  color: red;
+  font-size: 26px;
+  line-height: 40px;
+  margin-left: -4px;
+  margin-right: 3px;
+  float: left;
+  height: 40px;
+}
+
+.contactData .col-md-6.col-xs-6:nth-child(7) p,
+.contactData .col-md-6.col-xs-6:nth-child(9) p,
+.contactData .col-md-6.col-xs-6:nth-child(11) p {
+  width: 88%;
+}
+
+p.standorte {
+  text-align: left;
+  margin: 8px 0;
+}
+
+p.standorte img {
+  width: 18px;
+  margin-left: 0;
+}
+
+/*============================================================
+Google Maps
+==============================================================*/
+#google-map {
+  padding: 0;
+  margin: 0px;
+  text-align: center;
+}
+
+#google-map img:first-child {
+  margin-bottom: -10px;
+}
+
+#google-map img:last-child {
+  margin-top: -10px;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 550px;
+}
+
+#underline {
+  width: 100%;
+  height: 2px;
+  margin: 30px 0px;
+  background-color: #ffffff;
+}
+
+/*============================================================
+Footer
+==============================================================*/
+.footer {
+  background: linear-gradient(
+    to top,
+    rgba(58, 72, 165, 1) 30%,
+    rgba(97, 118, 255, 1) 100%
+  );
+  height: 400px !important;
+}
+
+.footerCopyright,
+.footerCopyright a {
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footerItems {
+  height: 80% !important;
+  position: relative;
+  top: -65px;
+}
+
+.footerItem {
+  margin-top: -100px;
+}
+
+.footerHeaders {
+  font-family: "Barlow";
+  font-weight: 500;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+}
+
+.footerDesc,
+.footerDescItem p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.footerDescItem {
+  text-align: left;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.footerDescItem img {
+  display: inline-block;
+  margin-right: 10px;
+  position: inherit;
+  top: 0px;
+}
+
+.footerDescItem p {
+  display: inline-block;
+  padding: 0px;
+  margin: 1px 0px;
+  position: relative;
+}
+
+.gototop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  color: #fff;
+  display: none;
+  z-index: 999;
+}
+
+.gototop i {
+  line-height: 0.5em;
+}
+
+/*============================================================
+Popup overlay
+==============================================================*/
+.popdown-content {
+  float: left;
+  position: absolute;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+  margin-top: -70px;
+}
+
+#popdown-opacity {
+  min-width: 100% !important;
+  position: fixed !important;
+  background-color: rgba(17, 17, 17, 0.52);
+}
+
+#popdown-dialog {
+  width: 100% !important;
+  min-width: 100% !important;
+}
+
+#popdown-dialog .body {
+  /*padding: 38px 30px 30px;*/ /* background-color: #fff; */
+  display: block;
+  overflow: auto;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.popdown-content-impressum .body {
+  padding: 18px 30px 30px;
+  height: 100%;
+}
+
+.butonX img:hover {
+  transform: scale(1.5);
+}
+
+.butonX img {
+  transition: all 0.2s ease-in-out;
+}
+
+.insuranceTitle img {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.close-popdown .butonX {
+  text-align: right;
+}
+
+.close-popdown {
+  float: right;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 0;
+  margin-top: 15px;
+  color: rgb(58, 72, 165);
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 30px;
+  z-index: 9999;
+}
+
+.partnerLogos {
+  text-align: center;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottomPartnerContent {
+  text-align: center;
+}
+
+#partnersConent {
+  height: 100%; /* overflow-y: scroll; */
+}
+
+p.partner-Txt {
+  font-size: 16px;
+  color: #696969;
+  margin: 10px 0;
+}
+
+.partnerItem {
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+.partnerItem p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #808080;
+}
+
+.popdown-content-impressum {
+  height: 100%; /*overflow-y: scroll;
+	  height: 100%;*/
+  margin: 0px !important;
+  padding: 0px !important;
+  overflow: hidden !important;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+.otherPartners {
+  height: auto;
+  text-align: left;
+  margin-top: 40px;
+  color: #696969;
+}
+
+.otherPartners p {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.otherPartners ul {
+  padding-left: 20px;
+}
+
+.otherPartners ul li {
+  font-size: 16px;
+  margin-bottom: 10px;
+  list-style: none;
+  line-height: normal;
+}
+
+.otherPartners ul li::before {
+  content: "\2022";
+  color: rgb(58, 72, 165);
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.insuranceTitle p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: rgb(58, 72, 165);
+  text-transform: uppercase;
+  visibility: visible !important;
+}
+
+.insuranceTitleUppercase {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgb(58, 72, 165);
+  text-transform: uppercase;
+  visibility: visible !important;
+  margin-bottom: 0px;
+}
+
+.insuranceTitleLowercase {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: rgb(58, 72, 165);
+  visibility: visible !important;
+}
+
+.form-group {
+  margin: 15px 0px;
+}
+
+.form-group label {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  color: #696969;
+}
+
+#main-form .form-group label {
+  text-align: right;
+}
+
+.form-group select,
+#postCode_input,
+#kontaktdaten .form-group input[type="text"],
+#geburtstagsdatum_input,
+#main-form #ort,
+#main-form #ort_input {
+  border-bottom: 1px solid rgb(58, 72, 165);
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  box-shadow: none;
+  border-radius: inherit;
+  background-color: transparent;
+}
+
+.form-group select {
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 16px;
+  color: #999;
+  height: 45px;
+  margin-top: -13px;
+}
+
+#postCode_input::-webkit-input-placeholder {
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 16px;
+  color: #999;
+}
+
+#postCode_input:-ms-input-placeholder {
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 16px;
+  color: #999;
+}
+
+#postCode_input:-moz-placeholder {
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 16px;
+  color: #999;
+}
+
+#postCode_input::-moz-placeholder {
+  font-family: "Barlow";
+  font-style: normal;
+  font-size: 16px;
+  color: #999;
+}
+
+*:focus,
+.form-control:focus {
+  outline: none;
+  border-color: transparent;
+  border-bottom: 1px solid rgb(58, 72, 165);
+  box-shadow: none;
+}
+
+.has-error .form-control:focus {
+  box-shadow: none !important;
+}
+
+.has-success .form-control {
+  border-color: rgb(58, 72, 165);
+  box-shadow: none;
+}
+
+.has-success .form-control:focus {
+  border-color: rgb(58, 72, 165);
+  box-shadow: none;
+}
+
+#jetztBerechnen,
+#continueKontaktdaten,
+#btn-offerte,
+#prevPrevBttn,
+#nextPrevBttn {
+  background-color: #ffffff;
+  border: 2px solid rgb(58, 72, 165);
+  width: 200px;
+  height: 50px;
+  float: right;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  padding-top: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(58, 72, 165);
+}
+
+#prevPrevBttn,
+#nextPrevBttn {
+  margin: auto;
+  float: none;
+  font-size: 20px;
+  font-family: "Barlow";
+  padding: 0;
+}
+
+#jetztBerechnen {
+  margin-right: 45px;
+}
+
+#continueKontaktdaten {
+  margin-top: 10px;
+}
+
+#btn-offerte {
+  margin-top: 40px;
+}
+
+#btn-offerte:hover,
+#jetztBerechnen:hover,
+#continueKontaktdaten:hover,
+#btn-offerte:hover {
+  color: #ffffff;
+}
+
+.hvr-shutter-out-horizontal::before {
+  top: -1px;
+  bottom: -1px;
+  left: -1px;
+  right: -1px;
+}
+.hvr-shutter-out-horizontal:hover {
+  color: #fff !important;
+}
+.hvr-shutter-out-horizontal::before {
+  background-color: rgb(58, 72, 165) !important;
+}
+.hvr-shutter-out-horizontal:not(:hover):focus,
+.hvr-mobile:hover {
+  color: rgb(58, 72, 165) !important;
+}
+.hvr-shutter-out-horizontal:not(:hover):focus:before,
+.hvr-mobile:hover::before {
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+}
+
+#main-form {
+  padding-top: 150px;
+}
+
+.insuranceQuestions {
+  padding: 0px 210px;
+}
+
+#kontaktdaten,
+#btn-offerte {
+  display: none;
+}
+
+section.first-page {
+  height: calc(100vh - 170px);
+  overflow-y: auto;
+}
+
+span#year-difference {
+  background: #78c754;
+  padding: 4px 25px;
+  color: #fff;
+}
+
+#kontaktdaten {
+  margin-top: 75px;
+}
+
+#kontaktdaten .form-group {
+  height: 50px;
+  line-height: 33px;
+}
+
+.notiz-section {
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+  padding-left: 0;
+}
+
+.result {
+  height: 600px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  padding-right: 0px;
+}
+
+.offertenResult {
+  height: 125px;
+  overflow-y: hidden;
+}
+
+.result::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+body {
+  overflow-x: hidden !important;
+}
+
+.scroll_table,
+.offertenTable {
+  width: 100%;
+}
+
+.scroll_table td,
+th {
+  padding: 5px 5px;
+}
+
+.first-row th,
+.second-row th {
+  background-color: rgb(58, 72, 165);
+  color: #ffffff;
+  padding: 8px;
+  text-align: center;
+  font-family: "Barlow";
+}
+
+.first-row th {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.second-row th {
+  font-style: italic;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.offertenResult .remove_row {
+  background-color: rgba(58, 72, 165, 0.329);
+  color: rgb(58, 72, 165);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.offertenResult .remove_row td {
+  padding: 10px 0px;
+}
+
+tr.calculator-tr {
+  cursor: pointer;
+  height: 35px;
+}
+
+.hover {
+  background: rgba(1, 153, 52, 0.33);
+  color: rgb(58, 72, 165);
+  font-style: bold;
+  font-weight: 800;
+}
+
+#offerte {
+  color: rgb(58, 72, 165);
+  font-weight: 800;
+}
+
+#offerte.hover {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.checkboxis label {
+  color: #808080;
+  padding: 8px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Barlow";
+  font-weight: 400;
+}
+
+.checkboxis input[type="checkbox"] {
+  outline: 1px solid rgb(58, 72, 165);
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -o-appearance: none;
+}
+
+.checkboxis input[type="checkbox"] {
+  display: none;
+}
+
+.checkboxis input[type="checkbox"] + label:after {
+  background-color: #ffffff;
+  float: left;
+  border: 1px solid rgb(58, 72, 165);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  transition-duration: 0.3s;
+  width: 16px;
+  height: 16px;
+  content: "";
+  margin: 0px 10px;
+}
+
+.checkboxis input[type="checkbox"]:checked + label:after {
+  background-color: rgb(58, 72, 165);
+}
+
+.alternativBoxes {
+  text-align: left;
+}
+
+.alternativBoxes span.input {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.alternativBoxes span.input label {
+  font-size: 12px;
+}
+
+.form-horizontal .control-label {
+  color: rgb(58, 72, 165);
+  padding: 8px 15px;
+  font-size: 18px;
+  font-family: "Barlow";
+  font-weight: 500;
+  text-align: left;
+}
+.form-register {
+  display: none;
+}
+.form-login {
+  display: block;
+}
+
+#kontaktdaten span.input {
+  width: 115px;
+  margin: -15px 0;
+}
+
+#kontaktdaten span.input:first-child {
+  margin-right: 30px;
+}
+
+textarea.form-control {
+  height: 250px;
+  border: 1px solid rgb(58, 72, 165);
+  color: #bbbbbb;
+  margin-top: 5px;
+  border-radius: 0;
+}
+
+section.testen {
+  background: url("../images/angebote/testen_bg.svg");
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position-y: 100px;
+}
+
+#testenForm {
+  min-height: 100%;
+}
+
+#testenForm .mannlich {
+  margin-right: 20px;
+  margin-left: auto;
+}
+
+#testenForm .weiblich {
+  margin-left: 20px;
+  margin-right: auto;
+}
+
+#testenForm .left-element {
+  margin-left: auto !important;
+}
+
+#testenForm .right-element {
+  margin-right: auto !important;
+  margin-left: 15px;
+  position: relative;
+  width: 320px;
+}
+
+#testenForm .underlineInputs {
+  width: 100% !important;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#testenForm .underlineInputs {
+  margin: 0;
+}
+
+#testenForm span.form-error {
+  margin: -30px 0 0;
+}
+
+#testenForm .boxOfQuestion {
+  margin-top: 30px;
+}
+
+#testenForm textarea {
+  height: 60px;
+}
+
+#testenForm textarea + span.form-error {
+  margin-top: -40px;
+}
+
+#testenForm p + span.form-error {
+  margin-top: -20px;
+}
+
+#testenForm .empty-element {
+  width: 219px;
+}
+
+#testenForm .agree {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+#testenForm p {
+  font-size: 10px;
+  margin-right: 10px;
+  margin-bottom: 0;
+  padding-left: 20px;
+  text-align: left;
+  font-family: "Barlow", sans-serif;
+}
+
+#testenForm input[type="checkbox"] {
+  float: left;
+}
+
+.button-container {
+  width: 320px;
+  margin-left: 25px;
+}
+
+#sendenButton {
+  width: 140px;
+  height: 40px;
+}
+
+#testenForm .finished_icon {
+  width: 50px;
+}
+
+#testenForm p.finished_message {
+  color: #3a48a5;
+  font-size: 18px;
+  width: 100%;
+}
+
+#hypothekContactForm input::-webkit-input-placeholder,
+#contactForma input::-webkit-input-placeholder,
+#contactForma textarea::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #bbbbbb !important;
+}
+
+#hypothekContactForm input:-moz-placeholder,
+#contactForma input:-moz-placeholder,
+#contactForma textarea:-moz-placeholder,
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #bbbbbb !important;
+}
+
+#hypothekContactForm input::-moz-placeholder,
+#contactForma input::-moz-placeholder,
+#contactForma textarea::-moz-placeholder,
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #bbbbbb !important;
+}
+
+#hypothekContactForm input:-ms-input-placeholder,
+#contactForma input:-ms-input-placeholder,
+#contactForma textarea:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #bbbbbb !important;
+}
+
+#contactForma span.help-block.form-error {
+  margin: 0;
+  line-height: 1;
+  left: 0;
+  margin-left: 0 !important;
+  text-align: left;
+  width: 100%;
+}
+
+.radio-inline input[type="radio"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -6px;
+  left: -1px;
+  position: relative;
+  background-color: #ffffff;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid rgb(58, 72, 165);
+}
+
+.radio-inline input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -6px;
+  left: -1px;
+  position: relative;
+  background-color: rgb(58, 72, 165);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid rgb(58, 72, 165);
+}
+
+#kontaktdaten h3 {
+  color: rgb(58, 72, 165);
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  font-family: "Barlow";
+  font-weight: 600;
+}
+
+.autoQuestionButtons {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  height: 30%;
+}
+
+.questionsInCenter {
+  position: relative;
+  height: calc(100vh - 330px);
+  overflow: auto;
+  overflow-x: hidden;
+}
+
+.autoQuestionTitle {
+  color: rgb(58, 72, 165);
+  font-size: 18px;
+  font-family: "Barlow";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.autoQuestionSubtitle {
+  color: #808080;
+  font-size: 18px;
+  font-family: "Barlow";
+  font-weight: 400;
+}
+
+.greyQuestionnaireButton {
+  color: rgb(58, 72, 165);
+  background-color: #f7f7f7;
+  font-size: 20px;
+  font-family: "Barlow";
+  font-weight: 400;
+  height: 50px;
+  width: 250px;
+  border: none;
+  border-radius: 0;
+}
+
+.questionnaireButton:hover,
+.questionnaireButton:active,
+.fieldQuestions input[type="button"]:hover {
+  color: #ffffff;
+  background-color: rgb(58, 72, 165);
+  font-size: 20px;
+  font-family: "Barlow";
+  font-weight: 400;
+  border: none;
+}
+
+.questionnaireBottomButtons {
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.questionnaireBottomButtons:hover {
+  cursor: pointer;
+}
+
+.nextButton {
+  float: right;
+}
+
+.nextButton p,
+.prevButton p {
+  display: inline-block;
+  color: rgb(58, 72, 165);
+  font-size: 20px;
+  font-family: "Barlow";
+  padding: 0px 30px;
+}
+
+.hvr-shutter-out-horizontal:hover p {
+  color: #fff;
+}
+
+.hvr-underline-from-left:before,
+.hvr-underline-from-right:before {
+  background: rgb(58, 72, 165);
+  height: 2px;
+}
+.hiddenQuestions {
+  display: none;
+}
+
+.pannenhilfeUnfall {
+  margin-top: 60px;
+}
+
+.underlineInputs {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgb(58, 72, 165);
+  color: rgb(58, 72, 165);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  border-radius: unset;
+  display: inline-block;
+  height: 33px;
+  font-size: 16px;
+  padding: 0px 10px;
+  margin: 0;
+  background-color: transparent;
+  width: 200px !important;
+}
+
+.has-error .form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.fieldQuestions label {
+  display: block;
+  color: #808080;
+  font-size: 16px;
+  font-family: "Barlow";
+  font-weight: 500;
+  width: 200px !important;
+  text-align: right;
+  line-height: 55px;
+  padding: 0;
+}
+
+span.help-block.form-error {
+  font-size: 12px;
+  line-height: 1;
+  margin: 0;
+  text-align: left;
+  position: absolute;
+  width: 200px;
+  right: 0;
+  bottom: 5px;
+}
+#autoversicherungEightQuestion .fieldQuestions:nth-child(11) {
+  height: 65px;
+  line-height: 65px;
+}
+
+.fieldQuestions {
+  display: flex;
+  height: 55px;
+  line-height: 55px;
+  position: relative;
+  width: 425px;
+  padding: 0;
+  margin: auto;
+  float: none;
+  justify-content: space-between;
+}
+
+.fieldQuestions input[type="button"] {
+  margin: 0px 10px;
+  width: 23%;
+}
+
+.inputFieldsForm {
+  height: calc(100vh - 450px);
+}
+
+.auslanderausweis {
+  width: 10% !important;
+  margin: 0px 8px !important;
+}
+
+.genderFields input[type="button"] {
+  display: block;
+  margin: 0 auto;
+}
+
+section.krankenkasse {
+  background: url(../images/angebote/krankenkasse_image.png);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.autoversicherung {
+  background: url(../images/angebote/autoversicherung_image.png);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.hausratversicherung {
+  background: url(../images/angebote/hausratversicherung_image.png);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.privathaftpflicht {
+  background: url(../images/angebote/privathaftpflicht_image.png);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.rechtsschutz {
+  background: url(../images/angebote/rechtsschutz_image.png);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.lebensversicherung {
+  background: url(../images/angebote/leben_half_icon.svg);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.reiseversicherung {
+  background: url(../images/angebote/reisen_half_icon.svg);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.gebaudeversicherung {
+  background: url(../images/angebote/building_half_icon.svg);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.kautionsversicherung {
+  background: url(../images/angebote/kaution_half_icon.svg);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.saule {
+  background: url(../images/angebote/3pillar_half_icon.svg);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.erwerbsunfahigkeit {
+  background: url(../images/angebote/behindert_half_icon.svg);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+section.hypothek {
+  background: url(../images/angebote/hypothek_half_icon.svg);
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+}
+
+/* Privathaftpflicht */
+.sixth-question-form .fieldQuestions input {
+  float: right;
+  height: 50px;
+}
+
+#hausratversicherungSeventhQuestion
+  .sixth-question-form:first-child
+  .fieldQuestions:nth-child(6)
+  label,
+#privathaftpflichtFourteenthQuestion
+  .sixth-question-form:first-child
+  .fieldQuestions:nth-child(6)
+  label {
+  margin-top: 0;
+  line-height: normal;
+}
+
+#privathaftpflichtFourteenthQuestion label.visa-label-2,
+#hausratversicherungNinthQuestion label.visa-label-2 {
+  width: 59% !important;
+  line-height: 50px;
+}
+
+#hausratversicherungNinthQuestion .questionnaireBottomButtons {
+  bottom: -35px;
+}
+
+#rechtsschutzThirdQuestion .fieldQuestions:nth-child(10) label {
+  line-height: 1 !important;
+}
+
+.sixth-question-form .fieldQuestions label {
+  text-align: right;
+  width: 50%;
+  line-height: 85px;
+}
+
+.sixth-question-form .fieldQuestions {
+  margin-bottom: 20px;
+  line-height: 65px;
+}
+
+.sixth-question-form .fieldQuestions input.greyQuestionnaireButton {
+  margin-right: 40px;
+}
+
+.sixth-question-form
+  .fieldQuestions
+  input.greyQuestionnaireButton.auslanderausweis {
+  width: 40px !important;
+  height: 40px;
+}
+
+p.sixth-question-p {
+  line-height: 60px;
+  margin: 0;
+  font-weight: 500;
+  color: #808080;
+  font-size: 16px;
+}
+
+.space-b {
+  margin-bottom: 50px;
+}
+
+/* End Of Privathaftpflicht */
+.area .input,
+.area .input label {
+  position: relative;
+}
+
+.area .input {
+  display: inline-block;
+  width: 250px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #f7f7f7;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -ms-transition: 300ms;
+}
+
+.small-input {
+  width: 60px !important;
+  height: 45px !important;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+}
+.small-input:first-child {
+  margin-left: auto !important;
+  margin-right: 10px !important;
+}
+.small-input:last-child {
+  margin-right: auto !important;
+  margin-left: 10px !important;
+}
+
+.input input {
+  visibility: hidden;
+}
+
+.input span.help-block.form-error {
+  display: none;
+}
+
+.area .input label {
+  width: 100%;
+  float: left;
+  font-weight: 400;
+  color: rgb(58, 72, 165);
+  text-align: center;
+  cursor: pointer;
+  font-size: 14px;
+  z-index: 3;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -ms-transition: 300ms;
+  height: 45px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.area .input:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+
+.sixth-question-form:nth-child(2)
+  .fieldQuestions:last-child
+  label.visa-label-2 {
+  line-height: 47px;
+  width: 47%;
+}
+
+#KrankenKasseCalcForm span.help-block.form-error {
+  left: 15px;
+  right: 15px;
+  bottom: -15px;
+}
+#kontaktdaten .rightcolumn .form-group:nth-child(3) span.help-block.form-error {
+  bottom: -30px;
+}
+
+#hausratversicherungSeventhQuestion .area .input {
+  margin-bottom: 20px;
+}
+
+#autoversicherungSeventhQuestion .fieldQuestions label {
+  padding: 0;
+  width: 200px;
+}
+#privathaftpflichtFourteenthQuestion span.help-block.form-error {
+  bottom: -10px;
+}
+#privathaftpflichtFourteenthQuestion
+  .inputForms
+  .fieldQuestions:nth-child(5)
+  span.help-block.form-error {
+  bottom: -22px;
+}
+#autoversicherungEightQuestion .inputFieldsForm > div:first-child,
+#privathaftpflichtFourteenthQuestion .inputForms > div:first-child,
+#hausratversicherungNinthQuestion .inputForms > div:first-child,
+#reiseversicherungFirstQuestion .inputFieldsForm > div:nth-child(2),
+#gebaudeversicherungFirstQuestion .inputFieldsForm > div:nth-child(2),
+#kautionsversicherungFirstQuestion .inputFieldsForm > div:first-child,
+#sauleFirstQuestion .inputFieldsForm > div:nth-child(2),
+#erwerbsunfahigkeitFirstQuestion .inputFieldsForm > div:nth-child(2) {
+  width: 425px;
+  padding: 0;
+  float: none;
+  margin: auto;
+}
+#autoversicherungSeventhQuestion .area .input label {
+  line-height: 45px;
+}
+
+#autoversicherungEightQuestion .fieldQuestions:first-child {
+  margin-bottom: 10px;
+}
+
+#autoversicherungEightQuestion .fieldQuestions:nth-child(9) label {
+  margin-left: 0;
+  padding-right: 15px;
+  min-width: 160px;
+}
+
+#autoversicherungSeventhQuestion .fieldQuestions:last-child label {
+  line-height: normal;
+}
+
+#autoversicherungEightQuestion .fieldQuestions > label {
+  width: 50% !important;
+}
+
+label.visa-label {
+  width: 50%;
+  padding-right: 0;
+}
+
+#rechtsschutzThirdQuestion .cards span.input {
+  margin: 0;
+  width: 32px !important;
+}
+#rechtsschutzThirdQuestion
+  .inputFieldsForm
+  .fieldQuestions:nth-child(11)
+  span.help-block.form-error {
+  bottom: -8px;
+}
+#hausratversicherungFifthQuestion span.help-block.form-error {
+  bottom: 5px;
+}
+#hausratversicherungSixthQuestion span.help-block.form-error {
+  left: calc(50% - 112px);
+  bottom: -15px;
+}
+#hausratversicherungNinthQuestion .fieldQuestions {
+  flex-wrap: wrap;
+  height: 55px;
+  line-height: initial;
+}
+#hausratversicherungSixthQuestion .autoQuestionButtons label.label-sum-chf {
+  color: #4d4d4c;
+}
+#hausratversicherungNinthQuestion span.help-block.form-error {
+  bottom: -10px;
+}
+#hausratversicherungNinthQuestion
+  .sixth-question-form:nth-child(2)
+  .fieldQuestions:nth-child(5)
+  span.help-block.form-error {
+  bottom: -23px;
+}
+#hausratversicherungNinthQuestion
+  .inputForms
+  .fieldQuestions:nth-child(3)
+  select {
+  width: 200px !important;
+  height: 50px;
+}
+
+#privathaftpflichtFourteenthQuestion
+  .inputForms
+  .fieldQuestions:nth-child(3)
+  select {
+  height: 50px;
+  width: 50%;
+}
+
+#hausratversicherungNinthQuestion
+  .sixth-question-form:nth-child(2)
+  .fieldQuestions:last-child
+  label.visa-label-2 {
+  line-height: 47px;
+  width: 47%;
+}
+
+#hausratversicherungSixthQuestion .autoQuestionButtons .underlineInputs {
+  font-weight: 600;
+}
+
+#hausratversicherungSixthQuestion p.versicherungssumme {
+  margin-bottom: 0;
+  margin-top: 70px;
+}
+.click-efect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(58, 72, 165);
+  border-radius: 100%;
+}
+
+.color-white label {
+  color: #fff !important;
+}
+
+#jetztOffertenErhalten {
+  background-color: #ffffff;
+  border: 2px solid rgb(58, 72, 165);
+  width: 200px;
+  height: 50px;
+  position: relative;
+  padding-top: 5px;
+  margin-right: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(58, 72, 165);
+}
+
+.checkmark__circle {
+  stroke-dasharray: 166;
+  stroke-dashoffset: 166;
+  stroke-width: 2;
+  stroke-miterlimit: 10;
+  stroke: rgb(58, 72, 165);
+  fill: none;
+  animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
+}
+
+.checkmark {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  stroke-width: 2;
+  stroke: #fff;
+  stroke-miterlimit: 10;
+  margin: 10% auto;
+  box-shadow: inset 0px 0px 0px rgb(58, 72, 165);
+  animation: fill 0.4s ease-in-out 0.4s forwards,
+    scale 0.3s ease-in-out 0.9s both;
+}
+
+.checkmark__check {
+  transform-origin: 50% 50%;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+  animation: stroke 0.3s cubic-bezier(0.65, 0, 0.45, 1) 0.8s forwards;
+}
+
+@keyframes stroke {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes scale {
+  0%,
+  100% {
+    transform: none;
+  }
+
+  50% {
+    transform: scale3d(1.1, 1.1, 1);
+  }
+}
+
+@keyframes fill {
+  100% {
+    box-shadow: inset 0px 0px 0px 50px rgb(58, 72, 165);
+  }
+}
+
+p.checkmark-p {
+  color: rgb(58, 72, 165);
+  font-weight: 400;
+}
+
+/* questionnaire ntfc */
+.questionnaireNtfc button.close-popdown {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+h1.title-questionnaire-ntfc {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  color: #039;
+  font-size: 34px;
+  line-height: 3.125rem;
+  font-family: "Barlow";
+  margin-bottom: 100px;
+}
+
+h1.questionnaireNtfc-Tittle {
+  color: #039;
+  font-size: 34px;
+  line-height: 3.125rem;
+  font-family: "Barlow";
+  margin-bottom: 40px;
+}
+
+h4.questionnaireNtfc-SubTittle {
+  font-size: 28px;
+  font-family: "Barlow";
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+ul li span {
+  float: left;
+  width: calc(100% - 20px);
+  padding-left: 5px;
+  padding-bottom: 7px;
+}
+
+ul.questionnaireNtfc-ul.first-ul li:first-child:before,
+ul.questionnaireNtfc-ul.first-ul li:nth-child(5):before {
+  float: left;
+}
+
+ul.questionnaireNtfc-ul {
+  list-style: none;
+  padding-left: 20px;
+  font-family: "Barlow";
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+ul.questionnaireNtfc-ul li {
+  margin-bottom: 7px;
+}
+
+ul.questionnaireNtfc-ul li:before {
+  content: "âœ“";
+  padding-right: 5px;
+  font-weight: bold;
+  color: #039;
+  width: 17px;
+  height: 30px;
+}
+
+img.questionnaireNtfc-img {
+  width: 550px;
+  margin-top: 30px !important;
+  margin-left: -100px !important;
+}
+
+p.pdf-youngo {
+  font-size: 24px;
+  margin-top: 20px;
+  color: #039;
+  font-family: "Barlow";
+  font-weight: 500;
+}
+
+.questionnaireNtfc .area .input label {
+  line-height: 50px;
+  text-align: center;
+}
+
+.questionnaireNtfc .underlineInputs {
+  margin: 0;
+  width: 100%;
+}
+
+.questionnaireNtfc .fieldQuestions {
+  display: block;
+  height: auto;
+  margin-bottom: 23px;
+  line-height: normal;
+}
+
+.questionnaireNtfc .fieldQuestions label {
+  line-height: normal;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.questionnaireNtfc input[type="radio"],
+.questionnaireNtfc input[type="checkbox"] {
+  width: auto;
+}
+
+.genderFields span,
+.questionnaireNtfc .radio-check-box span {
+  font-family: "Barlow";
+  font-weight: 500;
+}
+
+.questionnaireNtfc .fieldQuestions.radio-check-box label {
+  width: calc(100% - 30px) !important;
+  line-height: 32px !important;
+  text-align: left;
+  padding-left: 33px;
+  font-size: 16px;
+}
+
+.questionnaireNtfc .fieldQuestions.form-check.radio-check-box label {
+  padding-left: 45px;
+}
+
+.questionnaireNtfc .fieldQuestions.radio-check-box input {
+  float: left;
+}
+
+.questionnaireNtfc textarea {
+  min-width: 365px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-bottom: 1px solid #039;
+}
+
+/* .questionnaireNtfc span.help-block.form-error {
+	width: 100%;
+	position: absolute;
+	height: 20px;
+	line-height: normal;
+	margin-top: 3px !important;
+	margin-left: 0 !important;
+	line-height: 1 !important;
+} */
+
+.questionnaireNtfc svg.checkmark {
+  display: none;
+  position: absolute;
+  top: -50%;
+}
+
+button.form-submit {
+  padding: 15px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  outline: none;
+  font-family: "Barlow";
+  font-weight: 500;
+  border: 0;
+  background-color: #000;
+  color: #fcea10;
+  border-radius: 3px;
+}
+
+button.form-submit:hover {
+  color: #000;
+  background: #fcea10;
+}
+
+.questionnaireNtfc .container-box {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.questionnaireNtfc .container-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.questionnaireNtfc .container-checkbox .checkmarka {
+  margin-top: -55px;
+  position: absolute;
+  top: auto;
+  left: 15px;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border: 2px solid rgb(58, 72, 165);
+}
+
+/* On mouse-over, add a grey background color */
+.questionnaireNtfc .container-box:hover input ~ .checkmarka {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.questionnaireNtfc .container-checkbox input:checked ~ .checkmarka {
+  width: 25px;
+  height: 25px;
+  background: transparent;
+  border: 2px solid rgb(58, 72, 165);
+}
+
+.questionnaireNtfc .container-checkbox .checkmarka.inline {
+  margin-top: -23px;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.questionnaireNtfc .container-checkbox .checkmarka:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.questionnaireNtfc .container-checkbox input:checked ~ .checkmarka:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.questionnaireNtfc .container-checkbox .checkmarka:after {
+  left: 8px;
+  top: 3px;
+  width: 7px;
+  height: 12px;
+  border: solid rgb(58, 72, 165);
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.questionnaireNtfc .container-radiobox {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.questionnaireNtfc .container-radiobox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.questionnaireNtfc .container-radiobox .checkmarke {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid rgb(58, 72, 165);
+  margin-top: 4px;
+}
+
+/* On mouse-over, add a grey background color */
+.questionnaireNtfc .container-radiobox:hover input ~ .checkmarke {
+  background-color: transparent;
+}
+
+/* When the radio button is checked, add a blue background */
+.questionnaireNtfc .container-radiobox input:checked ~ .checkmarke {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.questionnaireNtfc .container-radiobox .checkmarke:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.questionnaireNtfc .container-radiobox input:checked ~ .checkmarke:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.questionnaireNtfc .container-radiobox .checkmarke:after {
+  top: 7px;
+  left: 7px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: rgb(58, 72, 165);
+}
+
+/* end of questionnaire ntfc */
+
+/* Schaden Melden */
+#shandenMelden section {
+  padding: 15px !important;
+  background: url("../images/angebote/schadenmelden_image.png");
+  background-repeat: no-repeat;
+  background-position-y: 400px;
+  overflow: hidden !important;
+}
+
+#shandenMelden .insuranceTitle p {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+p.title-schaden {
+  text-align: left;
+  margin-left: -25px;
+}
+
+#shandenMelden p.autoQuestionSubtitle {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+#shandenMelden p.autoQuestionTitle {
+  margin-bottom: 50px;
+  font-size: 18px;
+  font-style: italic;
+  text-transform: none;
+}
+
+#shandenMelden .inputFieldsForm {
+  height: auto;
+}
+
+#shandenMelden .questionsInCenter {
+  height: auto;
+  height: calc(100vh - 130px);
+  overflow: auto;
+}
+
+#shandenMelden .fieldQuestions {
+  height: 55px;
+  line-height: 55px;
+}
+
+#shandenMelden .fieldQuestions label {
+  width: 270px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+#shandenMelden span.input {
+  width: 85px;
+  text-align: center;
+  line-height: 50px;
+}
+
+#shandenMelden .fieldQuestions.area {
+  margin-bottom: 15px;
+}
+
+#shandenMelden .fieldQuestions span.input label {
+  min-width: auto;
+  margin: 0 auto;
+  float: none;
+  text-align: center;
+}
+
+#shandenMelden .fieldQuestions.area label.personen {
+  line-height: 20px;
+  height: auto;
+}
+
+.schadenhergang {
+  height: auto !important;
+}
+
+#shandenMelden textarea#schadenhergang,
+#shandenMelden textarea#schadenhergang:focus {
+  /* width: 217px!important; */
+  height: auto !important;
+  border: 1px solid rgb(58, 72, 165);
+  margin-bottom: 10px;
+  margin-right: 2px;
+}
+
+#shandenMelden .fieldQuestions .col-md-6 label {
+  float: left;
+  width: 30px;
+  height: 35px;
+}
+
+#shandenMelden .fieldQuestions .col-md-6 span.attach {
+  float: left;
+  width: calc(100% - 36px);
+  line-height: 20px;
+  margin-left: 6px;
+}
+
+#shandenMelden button#schadenMeldenButton {
+  margin-bottom: 45px;
+  background-color: #ffffff;
+  border: 2px solid rgb(58, 72, 165);
+  width: 200px;
+  height: 50px;
+  margin: 30px auto 55px;
+  padding-top: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(58, 72, 165);
+}
+
+#shandenMelden button#schadenMeldenButton:hover {
+  color: #fff;
+}
+
+#shandenMelden span.help-block.form-error {
+  color: #a94442;
+  right: 8px;
+  bottom: 5px;
+  width: 200px;
+  position: absolute;
+}
+
+#shandenMelden .fieldQuestions:nth-child(7) span.help-block.form-error {
+  bottom: -8px;
+}
+
+#shandenMelden .fieldQuestions:nth-child(11) span.help-block.form-error {
+  bottom: -5px;
+}
+
+#shandenMelden svg.checkmark {
+  display: none;
+  position: absolute;
+  left: 45%;
+  right: 45%;
+}
+
+.schaden-hotLine {
+  display: block;
+  text-align: left;
+  min-height: 48px !important;
+  max-height: 55px !important;
+  margin-bottom: 10px;
+}
+
+.schaden-hotLine p.autoQuestionTitle {
+  font-size: 16px;
+  font-style: normal !important;
+  font-weight: normal;
+  margin-bottom: 0 !important;
+  line-height: 15px;
+}
+
+.schaden-hotLine p.autoQuestionSubtitle {
+  font-size: 14px !important;
+}
+
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  color: transparent;
+  background-color: black;
+  display: inline-block;
+  cursor: pointer;
+  background: url("../images/add_icon.svg");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  margin-top: 0;
+  height: 45px;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+  background: url(../images/add_icon_hover.svg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+
+.fieldQuestions span {
+  line-height: 63px;
+  text-align: left;
+  font-size: 15px;
+  color: #696969;
+  width: 290px;
+}
+
+.questionsInCenter
+  .inputFieldsForm:nth-child(4)
+  .fieldQuestions:nth-child(8)
+  p.autoQuestionSubtitle {
+  margin-bottom: -5px !important;
+}
+
+/* End of Schaden Melden */
+#carousele {
+  width: 100%;
+  position: relative;
+  height: 535px;
+  top: 35%;
+  transform: translateY(-50%);
+  overflow: hidden;
+}
+
+#carousele div {
+  position: absolute;
+  transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+  opacity: 1;
+}
+
+#carousele div img {
+  width: 300px;
+  transition: width 1s;
+}
+
+#carousele .selected p {
+  font-weight: 300;
+  font-family: "Barlow";
+  font-size: 30px;
+  display: block;
+  font-style: italic;
+  line-height: 0;
+  color: rgb(58, 72, 165);
+}
+
+#carousele p {
+  display: none;
+}
+
+#carousele div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+
+#carousele div.hideLeft img {
+  width: 200px;
+}
+
+#carousele div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(50%) translateX(-50%);
+}
+
+#carousele div.hideRight img {
+  width: 200px;
+}
+
+#carousele div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateY(50px) translateX(-50%);
+}
+
+#carousele div.prev img {
+  width: 275px;
+}
+
+#carousele div.prevLeftSecond {
+  z-index: 4;
+  left: 15%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+
+#carousele div.prevLeftSecond img {
+  width: 222px;
+}
+
+#carousele div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(0px) translateX(-50%);
+  background: url(../images/elipse.png);
+  background-repeat: no-repeat;
+  background-position-y: 387px;
+  background-size: 100%;
+}
+
+#carousele div.next {
+  z-index: 5;
+  left: 70%;
+  transform: translateY(50px) translateX(-50%);
+}
+
+#carousele div.next img {
+  width: 275px;
+}
+
+#carousele div.nextRightSecond {
+  z-index: 4;
+  left: 85%;
+  transform: translateY(50%) translateX(-50%);
+  opacity: 0.7;
+}
+
+#carousele div.nextRightSecond img {
+  width: 222px;
+}
+
+.buttons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 280px;
+}
+
+.buttons button#prev-button,
+.buttons button#next-button {
+  border: 0;
+  color: #3a48a5;
+  background: transparent;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.buttons button#prev-button {
+  float: left;
+}
+
+.buttons button#next-button {
+  float: right;
+}
+
+.buttons button#prev-button img,
+.buttons button#next-button img {
+  width: 8px;
+}
+
+/* firmenKunden */
+#firmenKundenConent {
+  height: 100%;
+}
+
+.firmenKunden {
+  text-align: center;
+  margin: 40px 0px;
+  height: auto;
+  overflow: hidden;
+  padding: 0;
+}
+
+.firmenKunden img {
+  width: 100%;
+}
+
+h3.title {
+  font-family: "Barlow";
+  font-weight: bold;
+  font-size: 27px !important;
+  margin: 0 0 10px;
+  color: rgb(58, 72, 165);
+  margin-top: 30px;
+}
+
+p.subTitle {
+  font-family: "Barlow";
+  color: #696969;
+  font-size: 18px !important;
+  margin-bottom: 10px;
+  line-height: 20px;
+  width: 650px;
+  margin: 0 auto;
+}
+
+.firmenKunden h3 {
+  font-family: "Barlow";
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0 0 10px;
+  color: rgb(58, 72, 165);
+  text-align: left;
+  margin-top: 10px;
+}
+
+.firmenKunden h4 {
+  font-family: "Barlow";
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-align: left;
+  color: #696969;
+}
+
+.firmenKunden p {
+  font-family: "Barlow";
+  color: #696969;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.firmenKunden ul {
+  list-style: none;
+  font-family: "Barlow";
+  color: #696969;
+  font-size: 14px;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.firmenKunden .box:nth-child(1) h3 {
+  margin-top: 0 !important;
+}
+
+.firmenKunden .box ul li::before {
+  content: "\2022";
+  color: rgb(58, 72, 165);
+  font-size: 26px;
+  line-height: 10px;
+  margin-right: 8px;
+}
+
+.firmenKunden .box:nth-child(1) ul li::before {
+  float: left;
+  height: 20px;
+}
+
+.firmenKunden .box:nth-child(1) ul {
+  font-size: 18px;
+  padding: 0;
+}
+
+.firmenKunden .box:nth-child(3) ul {
+  padding-left: 15px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.firmenKunden ul li {
+  margin-bottom: 6px;
+  line-height: 16px;
+}
+
+.firmenKunden ul.pensionskasse li:before {
+  height: 20px;
+  float: left;
+}
+
+.firmenKunden .box button.offertanfrage {
+  color: #fff;
+  width: 150px;
+  height: 45px;
+  border: 0;
+  background: rgb(58, 72, 165);
+  font-family: "Barlow";
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0;
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+
+.firmenKunden .col-md-6.box {
+  height: 580px;
+}
+
+.firmenKunden .col-md-6.box,
+.firmenKunden .col-md-6 .col-md-6:nth-child(1) {
+  padding: 0 0 20px;
+}
+
+.box:nth-child(1) {
+  padding: 36px 20px;
+  height: 400px;
+}
+
+.box:nth-child(1),
+.box:nth-child(4),
+.box:nth-child(5),
+.box:nth-child(8),
+.box:nth-child(9),
+.box:nth-child(12) {
+  background-color: #f7f7f7;
+}
+
+.motorfahrzeugflottenversicherung ul li {
+  float: left;
+  width: 50%;
+  height: 60px;
+}
+
+.motorfahrzeugflottenversicherung ul li:before {
+  content: "âœ“" !important;
+  float: left;
+  font-size: 28px;
+  height: 60px;
+  top: 10px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+  position: relative;
+  color: rgb(58, 72, 165);
+}
+
+.firmenKunden ul.cyberversicherung li {
+  float: left;
+  width: 33%;
+  margin-top: 30px;
+}
+
+.firmenKunden ul.cyberversicherung li:before {
+  content: "âœ“";
+  float: left;
+  width: 33%;
+  text-align: right;
+  font-size: 28px;
+  height: 30px;
+  margin-left: 20px;
+  color: rgb(58, 72, 165);
+}
+
+/* end of firmenKunden */
+
+/* Investoren */
+.first-section {
+  margin-top: -60px !important;
+}
+
+.first-section .cornerText {
+  top: 50px !important;
+}
+
+.first-section h2 {
+  text-transform: none !important;
+  padding-top: 125px;
+}
+
+.first-section span.line-team img {
+  margin-bottom: 10px;
+}
+
+#team-two {
+  width: 100%;
+  min-height: 550px;
+  height: auto;
+  z-index: 100;
+  text-align: center;
+  margin-top: -200px;
+  padding: 0px !important;
+}
+
+#team-two .teamContainer.container {
+  width: 985px;
+  height: auto !important;
+  padding-top: 150px;
+}
+
+.second-section {
+  padding-top: 100px;
+  margin-top: 0 !important;
+  background-image: -webkit-linear-gradient(
+    -83deg,
+    #fff 45%,
+    #6176ff 46%,
+    #4e5fd2 56%,
+    #3a48a5 68%
+  );
+}
+
+.second-section h2.text-center {
+  padding-top: 80px;
+  font-family: "Barlow";
+  font-weight: 500;
+  text-transform: uppercase;
+  color: rgb(58, 72, 165);
+}
+
+#uberuns-two {
+  height: 100% !important;
+  display: block;
+}
+
+.thirst-section img:nth-child(2) {
+  margin-bottom: 50px !important;
+}
+
+.thirst-section canvas#lineChart {
+  background: #fff;
+  padding: 25px;
+}
+
+.thirst-section img {
+  margin-bottom: 5px;
+}
+
+.thirst-section p {
+  color: #696969;
+  font-family: "Barlow";
+  font-weight: 500;
+}
+
+.thirst-section p:nth-child(4) {
+  font-weight: normal;
+}
+
+.thirst-section p:nth-child(3) {
+  line-height: 20px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.thirst-section a:nth-child(2):hover,
+.thirst-section p:nth-child(1):hover {
+  color: rgb(58, 72, 165);
+}
+
+.forth-section,
+.last-section {
+  background-color: #fff !important;
+}
+
+.footer-section .footerItem {
+  margin-top: 55px;
+}
+
+.investoren-box-news {
+  height: 450px;
+}
+
+.investoren-news-image {
+  width: 100%;
+}
+
+.investoren-news-desc {
+  width: 100%;
+  min-height: 30%;
+  padding: 20px 10px;
+  border: 1px solid #f7f7f7;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+p.desc-box {
+  font-family: "Barlow";
+  font-size: 16px;
+  color: #696969;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.investoren-more-info {
+  font-family: "Barlow";
+  font-size: 16px;
+  color: #696969;
+}
+
+.investoren-news.container {
+  height: auto !important;
+}
+/* End of Investoren */
+
+/* New questionnaires */
+.genderFields {
+  display: flex;
+  justify-content: space-between;
+  width: 200px !important;
+  padding: 0;
+  margin-left: auto !important;
+  height: 40px;
+}
+
+.mannlich,
+.weiblich {
+  width: 45% !important;
+}
+.mannlich,
+.weiblich,
+.mannlich label,
+.weiblich label {
+  height: 35px !important;
+  line-height: 35px !important;
+}
+
+.weiblich {
+  float: right !important;
+}
+
+.visa-type span.input {
+  width: 32px;
+}
+
+div#lebensversicherungSecondQuestion div div,
+div#sauleSecondQuestion div div {
+  margin-bottom: 20px;
+}
+
+#lebensversicherungSecondQuestion span.help-block.form-error {
+  left: 15px;
+  right: initial;
+  bottom: -15px;
+}
+
+#sauleSecondQuestion span.help-block.form-error {
+  left: 0;
+  right: initial;
+  bottom: -15px;
+}
+
+#sauleFourthQuestion .inputFieldsForm {
+  min-height: 460px;
+}
+
+#erwerbsunfahigkeitSecondQuestion span.help-block.form-error {
+  left: 15px;
+  right: initial;
+  bottom: -15px;
+}
+
+div#lebensversicherungThirdQuestion .area div:nth-child(1),
+div#sauleSecondQuestion .area div:nth-child(1) {
+  margin-top: 30px;
+}
+
+div#lebensversicherungThirdQuestion .area div:nth-child(2) {
+  margin-top: 40px;
+}
+
+div#lebensversicherungThirdQuestion .area div div:nth-child(1),
+div#lebensversicherungThirdQuestion .area div div:nth-child(2),
+div#sauleSecondQuestion .area div div:nth-child(1),
+div#sauleSecondQuestion .area div div:nth-child(2) {
+  margin-top: 0;
+}
+
+div#lebensversicherungThirdQuestion .inputFieldsForm > div:nth-child(2),
+div#lebensversicherungThirdQuestion .inputFieldsForm > div:nth-child(3),
+div#erwerbsunfahigkeitThirdQuestion .inputFieldsForm > div:nth-child(2),
+div#erwerbsunfahigkeitThirdQuestion .inputFieldsForm > div:nth-child(3) {
+  width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+div#lebensversicherungThirdQuestion .inputFieldsForm > div:nth-child(2),
+div#erwerbsunfahigkeitThirdQuestion .inputFieldsForm > div:nth-child(2) {
+  margin-top: 230px;
+}
+
+div#lebensversicherungThirdQuestion .inputFieldsForm > div:nth-child(3),
+div#erwerbsunfahigkeitThirdQuestion .inputFieldsForm > div:nth-child(3) {
+  margin-top: 10px;
+}
+
+/* div#lebensversicherungThirdQuestion span.help-block.form-error,
+div#erwerbsunfahigkeitThirdQuestion span.help-block.form-error {
+	width: 200px;
+	margin-left: auto;
+	margin-right: 15px;
+} */
+
+label.big-div {
+  width: 100% !important;
+  line-height: 1;
+}
+
+.left-control,
+.right-control {
+  left: 50%;
+}
+
+.left-control {
+  transform: translateX(-300px);
+}
+
+.right-control {
+  transform: translateX(300px);
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.fallback {
+  width: 100%;
+  height: 120px;
+  border: 1px dashed rgb(58, 72, 165);
+  border-radius: 28px;
+  background: url("../images/upload.svg") #f7f7f7;
+  background-repeat: no-repeat;
+  background-position: 20px;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 5px;
+  cursor: pointer;
+  overflow-y: auto;
+}
+
+.fallback p {
+  color: rgb(58, 72, 165);
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  cursor: text;
+  width: 60%;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.uploadfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.uploadfile + label {
+  margin: auto;
+  border: 2px solid rgb(58, 72, 165);
+  background: #f7f7f7;
+  color: rgb(58, 72, 165);
+  font-weight: 500;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.dz-progress,
+.dz-error-message,
+.dz-success-mark,
+.dz-error-mark {
+  display: none;
+}
+
+.dz-preview {
+  float: left;
+  width: auto;
+  margin: 10px;
+}
+
+.dz-preview:nth-child(2) {
+  margin-left: 85px;
+}
+
+#reiseversicherungSecondQuestion .autoQuestionButtons {
+  top: 25% !important;
+}
+
+#reiseversicherungThirdQuestion .inputFieldsForm {
+  top: 5% !important;
+  min-height: 410px;
+}
+
+#sauleThirdQuestion .fieldQuestions,
+#erwerbsunfahigkeitFourthQuestion .fieldQuestions {
+  width: 500px;
+  flex-direction: column;
+  height: 80px;
+}
+#sauleThirdQuestion span.help-block.form-error {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+}
+#sauleThirdQuestion .fieldQuestions .all-div,
+#erwerbsunfahigkeitFourthQuestion .fieldQuestions .all-div {
+  text-align: center;
+  padding: 0;
+  width: 100% !important;
+}
+#kautionsversicherungFirstQuestion .fieldQuestions .all-div {
+  padding-left: 0;
+}
+#sauleFourthQuestion .fieldQuestions label {
+  line-height: 1;
+}
+
+.horizontal-div {
+  text-align: center;
+  width: 25%;
+  margin: 15px auto 0;
+  height: 40px;
+}
+
+#erwerbsunfahigkeitFourthQuestion .horizontal-div {
+  width: 25%;
+}
+
+#erwerbsunfahigkeitThirdQuestion .inputForms {
+  top: 10%;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#hypothekContactForm .contactFormular {
+  width: 100%;
+  border: 0;
+}
+
+#hypothekContactForm p.contactTitle {
+  text-align: left;
+}
+
+/* End of New questionnaires */
+#lebensversicherungThirdQuestion .fieldQuestions:nth-child(2),
+#erwerbsunfahigkeitThirdQuestion .fieldQuestions:nth-child(2) {
+  margin-top: 7%;
+}
+
+.von-bis label {
+  text-align: left;
+  padding-left: 0;
+  color: #808080;
+  font-weight: normal;
+}
+
+.questionnaireBottomButtons button#jetztOffertenErhalten {
+  margin-right: 0;
+}
+
+.set-bottom {
+  bottom: 0;
+  position: absolute;
+}
+
+#erwerbsunfahigkeitFifthQuestion .set-bottom {
+  padding: 0;
+}
+
+#hypothekFirstQuestion .list > div:nth-child(2),
+#hypothekFirstQuestion .list > div:nth-child(3) {
+  margin-top: 20px;
+}
+
+#sauleThirdQuestion .has-error .form-control,
+#erwerbsunfahigkeitFourthQuestion .has-error .form-control {
+  margin-top: 0px;
+}
+
+#sauleThirdQuestion .fieldQuestions.has-error,
+#erwerbsunfahigkeitFourthQuestion .fieldQuestions.has-error {
+  height: 80px;
+}
+
+#kautionsversicherungFirstQuestion button#jetztOffertenErhalten {
+  margin-left: -3%;
+}
+
+#kautionsversicherungFirstQuestion .flex-space-between,
+#sauleThirdQuestion .flex-space-between:nth-child(5),
+#lebensversicherungSecondQuestion div .flex-space-between,
+#lebensversicherungThirdQuestion .flex-space-between,
+#gebaudeversicherungSecondQuestion .flex-space-between,
+#gebaudeversicherungThirdQuestion .flex-space-between,
+#sauleSecondQuestion .flex-space-between,
+#erwerbsunfahigkeitSecondQuestion .flex-space-between,
+#erwerbsunfahigkeitThirdQuestion .flex-space-between,
+#erwerbsunfahigkeitFifthQuestion .flex-space-between {
+  flex-wrap: nowrap;
+}
+
+#lebensversicherungFourthQuestion .fieldQuestions {
+  width: 625px;
+}
+
+#lebensversicherungFourthQuestion .fieldQuestions label {
+  width: 400px !important;
+}
+
+#erwerbsunfahigkeitFifthQuestion .inputFieldsForm {
+  top: 18%;
+  height: calc(100vh - 550px);
+  min-height: 280px;
+  padding-left: 0;
+}
+
+#hausratversicherungFifthQuestion .autoQuestionButtons {
+  top: 25%;
+}
+
+.button-container-width {
+  width: 200px !important;
+  padding: 0 10px;
+  margin: 0 15px;
+}
+
+#autoversicherungEightQuestion textarea#comm {
+  height: 50px;
+  resize: none;
+}
+
+#autoversicherungEightQuestion
+  .inputFieldsForm
+  .fieldQuestions:last-child
+  span.help-block.form-error {
+  display: none !important;
+}
+
+span.input.input.input-radio label {
+  width: 100% !important;
+}
+span.input.input-radio.has-error {
+  background-color: #a94442 !important;
+}
+
+span.input.input-radio.has-error label {
+  color: #fff !important;
+}
+
+#shandenMelden .fieldQuestions:nth-child(12) {
+  height: auto;
+  margin-top: 15px;
+}
+
+form#schadenMeldenForm #dropzone {
+  display: flex;
+}
+
+form#schadenMeldenForm #dropzone p {
+  font-size: 16px;
+  margin: auto;
+  padding: 0;
+}
+
+.popdown-partner,
+.popdown-firmenkunden,
+.popdown-questionnaireNtfc {
+  height: 100vh;
+  overflow: auto !important;
+}
+
+.visa-type .cards {
+  width: 200px !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#lebensversicherungFirstQuestion
+  .fieldQuestions:nth-child(13)
+  span.help-block.form-error {
+  bottom: -8px;
+}
+.p-r-0 {
+  padding-right: 0;
+}
+
+#hausratversicherungSeventhQuestion .autoQuestionButtons {
+  top: 10%;
+}
+
+#lebensversicherungSecondQuestion .input label,
+#sauleSecondQuestion .input label,
+#erwerbsunfahigkeitSecondQuestion .input label {
+  font-size: 12px;
+}
+
+#lebensversicherungFirstQuestion .fieldQuestions .input label,
+#sauleFirstQuestion .fieldQuestions .input label {
+  width: 100% !important;
+}
+
+/*============================================================
+Login Form
+==============================================================*/
+.login i.fas {
+  font-size: 26px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.login p {
+  line-height: 22px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.mx-3 {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.mb-4 {
+  margin-bottom: 24px;
+}
+
+.mb-5 {
+  margin-bottom: 48px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.graph-add-data-section {
+  width: 100%;
+  background: white;
+  padding: 30px;
+}
+
+#chartTable {
+  width: 100%;
+  background: white;
+  margin: 30px 0;
+  padding: 30px;
+}
+
+#chartTable thead tr th,
+#chartTable tbody tr td {
+  width: 50%;
+  border: 1px solid #000;
+  text-align: center;
+}
+
+#chartTable tbody tr td {
+  height: 33px;
+}
+
+.editable-buttons button {
+  height: 30px;
+  width: 50px !important;
+  border-radius: 2px;
+  margin: 0;
+  padding: 0 18px;
+}
+
+.editable-buttons button i {
+  line-height: 0;
+  margin: 0 auto;
+}
+
+.editable-buttons .btn.btn-primary.editable-submit:hover {
+  background: linear-gradient(
+    to top,
+    rgba(58, 72, 165, 1) 30%,
+    rgba(97, 118, 255, 1) 100%
+  ) !important;
+}
+
+.editable-buttons .editable-cancel {
+  background: #ca0000;
+  color: #fff;
+}
+
+.delete button {
+  width: 70px;
+  height: 28px;
+  background: #ca0000;
+  color: #fff;
+  border: 0;
+  margin: 2px;
+  font-size: 14px;
+}
+
+#chartTable .editable-input {
+  margin-top: 4px;
+}
+
+.d-flex i.far,
+.d-flex i.fas {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+#datepicker {
+  width: 100%;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid #ccc;
+  padding-left: 10px;
+}
+
+.save button {
+  width: 70px;
+  height: 34px;
+  background: #333;
+  color: #fff;
+  outline: none;
+  border: 0;
+  border-radius: 4px;
+  transition: all 1s;
+}
+
+.save button:hover {
+  background: #fff;
+  color: #333;
+  border: 2px solid #333;
+  transition: all 0.5s;
+}
+
+.select-months {
+  background: #fff;
+  padding: 25px 40px 10px;
+}
+
+.select-months select {
+  width: 180px;
+  border-radius: 4px;
+}
+
+/* Unsere Empfehlung - Online abschliessen*/
+#versicherungAbschliessenForm .underlineInputs {
+  width: 100% !important;
+}
+
+.mobile_team {
+  display: none;
+}
+
+#reiseversicherungFirstQuestion .fieldQuestions:nth-child(10) label,
+#gebaudeversicherungFirstQuestion .fieldQuestions:nth-child(10) label,
+#gebaudeversicherungSecondQuestion .fieldQuestions:nth-child(2) label,
+#kautionsversicherungFirstQuestion .fieldQuestions:nth-child(12) label,
+#kautionsversicherungFirstQuestion .fieldQuestions:nth-child(14) label {
+  line-height: 1;
+}
+#gebaudeversicherungFirstQuestion
+  .fieldQuestions:nth-child(12)
+  span.help-block.form-error,
+#sauleFirstQuestion .fieldQuestions:nth-child(13) span.help-block.form-error {
+  bottom: -8px;
+}
+#erwerbsunfahigkeitFirstQuestion
+  .fieldQuestions:nth-child(13)
+  span.help-block.form-error {
+  bottom: -5px;
+}
+#erwerbsunfahigkeitFourthQuestion
+  .fieldQuestions:nth-child(3)
+  span.help-block.form-error {
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -15px;
+}
+#hypothekFirstQuestion .contactName span.help-block.form-error {
+  left: 0;
+  bottom: -15px;
+}
+#hypothekFirstQuestion .contactEmail span.help-block.form-error {
+  left: 15px;
+  bottom: -27px;
+}
+#hypothekFirstQuestion .list > div:nth-child(2) span.help-block.form-error,
+#hypothekFirstQuestion .list > div:nth-child(3) span.help-block.form-error {
+  left: 15px;
+  bottom: -15px;
+}
+
+/*============================================================
+Media Queries
+==============================================================*/
+@media only screen and (min-width: 1200px) {
+  .col-lg-offset-25 {
+    margin-left: 20.833%;
+  }
+}
+
+@media only screen and (max-width: 1920px) {
+  #lebensversicherungFourthQuestion .area .input,
+  #sauleThirdQuestion .area .input {
+    width: 280px;
+  }
+
+  #reiseversicherungThirdQuestion .area .input {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+}
+
+@media only screen and (min-width: 1536px) {
+  #kontaktdaten .control-label {
+    font-size: 16px;
+  }
+
+  .insurance-app {
+    height: 495px;
+  }
+
+  #carousele {
+    height: 390px;
+  }
+
+  #carousele div img {
+    width: 230px;
+  }
+
+  #carousele div.hideLeft img {
+    width: 200px;
+  }
+
+  #carousele div.hideRight img {
+    width: 200px;
+  }
+
+  #carousele div.prev img {
+    width: 205px;
+  }
+
+  #carousele div.prevLeftSecond img {
+    width: 152px;
+  }
+
+  #carousele div.next img {
+    width: 205px;
+  }
+
+  #carousele div.nextRightSecond img {
+    width: 152px;
+  }
+
+  #carousele div.nextRightSecond img {
+    width: 152px;
+  }
+
+  #carousele div.selected {
+    background-position-y: 300px;
+    background-position-x: center;
+  }
+
+  .newsContainer {
+    padding: 0;
+  }
+
+  .notification {
+    width: 370px;
+  }
+
+  .notification:nth-child(2) {
+    height: 138px;
+    top: 440px;
+  }
+
+  .notification.big {
+    height: 245px;
+  }
+
+  .ntfc-mini-description p.title {
+    font-size: 24px;
+  }
+
+  p.alert-text {
+    font-size: 18px;
+  }
+
+  .ntfc-image {
+    width: 100px;
+  }
+
+  .ntfc-image img {
+    width: 60px;
+    margin: 27px 20px;
+  }
+
+  .ntfc-description {
+    width: 270px;
+  }
+
+  .ntfc-description p.title {
+    font-size: 16px;
+  }
+
+  .bottom-part-description button {
+    width: 124px;
+    font-size: 13px;
+  }
+
+  .bottom-part-description p.price {
+    margin-top: 7px;
+    margin-right: 5px;
+    font-size: 14px;
+  }
+
+  .questionnaireNtfc .area .input {
+    width: 200px;
+  }
+
+  #shandenMelden .fieldQuestions label {
+    width: 235px;
+  }
+
+  .firmenKunden p {
+    font-size: 14px;
+  }
+
+  .partnerItem img {
+    width: 125px;
+  }
+
+  .partnerItem p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .icons-wrapper > div {
+    margin-left: 0;
+  }
+
+  .icons-wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .insurance-app {
+    height: 550px;
+  }
+
+  .bottomIcons {
+    width: 960px;
+    height: 640px;
+    bottom: -505px;
+  }
+
+  .security-element {
+    flex: 0 0 33.33%;
+    width: 33.33%;
+  }
+
+  #carousele {
+    height: 415px;
+  }
+
+  #carousele img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #carousele div.hideLeft {
+    width: 221px;
+  }
+
+  #carousele div.prevLeftSecond,
+  #carousele div.nextRightSecond {
+    width: 180px;
+  }
+
+  #carousele div.prev,
+  #carousele div.next {
+    width: 225px;
+  }
+
+  #carousele div.selected {
+    background-position-x: center;
+    background-position-y: 320px;
+    width: 246px;
+  }
+
+  label.visa-label {
+    width: 360px !important;
+  }
+
+  #sauleFirstQuestion .fieldQuestions label.visa-label {
+    width: 80% !important;
+    margin: 0;
+    padding: 0;
+    padding-right: 18px;
+  }
+
+  #lebensversicherungFourthQuestion .area .input,
+  #sauleThirdQuestion .area .input {
+    width: 250px;
+  }
+
+  .carousel-inner > .item > img {
+    width: 100%;
+    height: calc(100vh + 30px);
+    object-fit: cover;
+  }
+
+  .contactSocialMedia a {
+    padding: 9px;
+  }
+
+  #shandenMelden span.input.col-md-3:nth-child(2) {
+    margin-right: 0;
+  }
+
+  .partnerLogos {
+    width: 1000px;
+  }
+
+  .about h1,
+  #works h1,
+  #news h1,
+  #uberuns h1,
+  #team h1,
+  #contact h1,
+  .popdown-content-impressum h1 {
+    font-size: 36px;
+  }
+
+  .partnerItem img {
+    width: 100px;
+  }
+
+  .partnerItem p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1200px) {
+  /* Navbar expand md */
+  .navbar-inverse .navbar-collapse {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 59px;
+    overflow: hidden;
+    border-style: none;
+  }
+  .navbar-inverse .navbar-toggle {
+    position: absolute;
+    right: 0;
+  }
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 0 -15px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    line-height: 1em;
+    text-align: center;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .collapsing {
+    overflow: hidden !important;
+  }
+  ul.nav.navbar-nav.navbar-right.scroll {
+    height: auto !important;
+    background: rgb(58, 72, 165);
+    position: relative;
+  }
+  .icons-wrapper > div.navbar-header {
+    width: 300px;
+  }
+
+  #carousele div.hideLeft {
+    width: 208px;
+  }
+
+  #carousele div.prevLeftSecond,
+  #carousele div.nextRightSecond {
+    width: 170px;
+  }
+
+  #carousele div.prev,
+  #carousele div.next {
+    width: 212px;
+  }
+
+  #carousele div.selected {
+    width: 232px;
+    background-position-y: 300px;
+  }
+
+  body {
+    font: 300 13px/13px Roboto, Arial, Helvetica;
+  }
+
+  .navbar-nav > li > a {
+    font-size: 14px;
+  }
+
+  .bannerText {
+    left: 100px;
+  }
+
+  .bannerTextCRM {
+    left: 100px;
+    z-index: 1;
+  }
+
+  .icons-wrapper > div,
+  .navbar-inverse .navbar-collapse {
+    margin-left: 0;
+  }
+
+  .navbar-brand {
+    padding-top: 11px;
+  }
+
+  .navbar-brand img {
+    width: 300px;
+  }
+
+  .box-news:nth-child(2n + 1) {
+    margin-left: 15%;
+  }
+
+  .box-news:nth-child(2n) {
+    margin-right: 15%;
+  }
+
+  .box-news:nth-child(3),
+  .box-news:nth-child(4) {
+    margin-top: 30px;
+  }
+
+  .services ul li {
+    margin: 0 0.5em;
+  }
+
+  .cornerText {
+    margin-left: 20px;
+    font-size: 20px;
+    word-spacing: 6px;
+  }
+
+  .grid figure h2 {
+    font: 700 1.5em Roboto, Arial, Helvetica;
+  }
+
+  figure.effect-oscar figcaption {
+    padding: 12%;
+  }
+
+  figure.effect-oscar figcaption::before,
+  figure.effect-chico figcaption::before {
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .about.spacer {
+    min-height: 620px;
+  }
+
+  .partnerLogos {
+    width: 900px;
+  }
+
+  .partners img {
+    margin: 0 25px 25px 0;
+  }
+
+  .page {
+    margin: 15px -45px 15px 25px;
+  }
+
+  .contactData {
+    padding: 20px 15px;
+  }
+
+  .contactSocialMedia a {
+    padding: 18px;
+  }
+
+  .firmenKunden ul li:before,
+  .firmenKunden ul.pensionskasse li:before {
+    height: 17px;
+  }
+
+  .contactData p {
+    font-size: 12px;
+  }
+
+  .contactData .col-xs-6 p {
+    font-size: 10px;
+  }
+
+  .questionnaireNtfc .fieldQuestions label {
+    font-size: 14px;
+  }
+
+  .questionnaireNtfc .radio-check-box span {
+    line-height: normal;
+  }
+
+  .questionnaireNtfc .container-checkbox .checkmarka.inline {
+    margin-top: -55px;
+  }
+
+  .questionnaireNtfc .container-checkbox .checkmarka {
+    margin-top: -85px;
+  }
+
+  .questionnaireNtfc .fieldQuestions.radio-check-box label {
+    margin-top: 10px;
+  }
+
+  .newsContainerItem:nth-child(2) .newsItemImage img {
+    height: auto;
+    width: 100%;
+  }
+
+  #shandenMelden .fieldQuestions label {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .firmenKunden .col-md-6.box {
+    height: 840px;
+  }
+
+  .motorfahrzeugflottenversicherung ul li,
+  .motorfahrzeugflottenversicherung ul li:before {
+    height: 100px;
+  }
+
+  .alternativBoxes span.input {
+    width: 100%;
+  }
+
+  .area .input label {
+    font-size: 13px;
+    text-align: center !important;
+  }
+
+  .insuranceQuestions {
+    padding: 0px 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .bottomIcons {
+    width: 864px;
+    height: 576px;
+    bottom: -440px;
+  }
+  label.visa-label {
+    width: 345px !important;
+  }
+
+  #sauleThirdQuestion .fieldQuestions .all-div {
+    line-height: 1;
+  }
+
+  #lebensversicherungFourthQuestion .area .input,
+  #sauleThirdQuestion .area .input {
+    width: 100%;
+  }
+
+  #erwerbsunfahigkeitFourthQuestion .horizontal-div {
+    width: 100%;
+  }
+
+  .navbar-nav > li > a {
+    font-size: 16px;
+    padding: 15px 7px;
+  }
+
+  .bannerText p {
+    font-size: 34px;
+  }
+
+  p.smallText {
+    font-size: 15px;
+  }
+
+  .bannerText img {
+    left: 0;
+    width: 90%;
+  }
+
+  .cornerText {
+    margin-left: 15px;
+    word-spacing: 8px;
+  }
+
+  #carousele div.hideLeft {
+    width: 195px;
+  }
+
+  #carousele div.prevLeftSecond,
+  #carousele div.nextRightSecond {
+    width: 159px;
+  }
+
+  #carousele div.prev,
+  #carousele div.next {
+    width: 199px;
+  }
+
+  #carousele div.selected {
+    width: 218px;
+    background-position-y: 280px;
+    background-size: 85%;
+  }
+
+  .partnerLogos {
+    width: 800px;
+  }
+
+  .partners-container {
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about h1,
+  #works h1,
+  #news h1,
+  #uberuns h1,
+  #team h1,
+  #contact h1,
+  .popdown-content-impressum h1 {
+    font-size: 30px;
+  }
+
+  .insurance-app img {
+    width: 130px;
+  }
+
+  #tab1 {
+    padding-bottom: 50px;
+  }
+
+  .tab_content p {
+    font-size: 18px;
+  }
+
+  .downloadPlaces p {
+    font-size: 22px;
+  }
+
+  .uberuncContainer img {
+    width: 100%;
+  }
+
+  .box-news {
+    margin: 30px 15% 0;
+  }
+
+  .newsItemImage,
+  .newsItemDesc {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  #news .newsItemImage img {
+    margin: 22px 7px;
+    width: 100%;
+    height: auto;
+  }
+
+  #news .underlineNews {
+    float: left;
+    margin: 0;
+  }
+
+  #team {
+    background-image: linear-gradient(0.5turn, #f7f7f7 240px, #fff 240px);
+  }
+
+  .teamContainer .content_img,
+  .content_img .image {
+    width: 140px;
+    height: auto;
+  }
+
+  span.line-team p {
+    font-size: 14px;
+  }
+
+  .page::before {
+    top: -23px;
+    left: -70px;
+  }
+
+  .page {
+    margin: 15px -5px 15px 25px;
+  }
+
+  .contactContainer {
+    height: 465px !important;
+  }
+
+  .btn-primary {
+    font-size: 16px;
+  }
+
+  .footerDesc,
+  .footerDescItem p {
+    font-size: 14px;
+  }
+
+  .footer {
+    height: 360px !important;
+  }
+
+  .footer #underline {
+    margin-bottom: 20px;
+  }
+
+  .footerCopyright,
+  .footerCopyright a {
+    font-size: 16px;
+  }
+
+  #shandenMelden textarea#schadenhergang,
+  #shandenMelden textarea#schadenhergang:focus {
+    margin-left: 0;
+  }
+
+  #shandenMelden .fieldQuestions label.col-md-6 {
+    width: 50%;
+  }
+
+  #reiseversicherungThirdQuestion .area .input {
+    width: 100%;
+  }
+
+  #partner-comments {
+    padding-top: 50px;
+  }
+
+  #hausratversicherungThirdQuestion label.col-xs-12 {
+    line-height: normal;
+  }
+
+  #hausratversicherungFifthQuestion .autoQuestionButtons {
+    top: 20%;
+  }
+  #sauleThirdQuestion .area .input {
+    margin: 0 5% 30px;
+  }
+}
+
+/* Media query per footer items */
+@media only screen and (max-width: 991px) {
+  #uberuns {
+    height: auto !important;
+  }
+  #KrankenKasseCalcForm .form-group {
+    height: 50px;
+  }
+  .page {
+    margin: 15px -40px 15px 25px;
+  }
+  p.name {
+    top: 55%;
+  }
+  .footer {
+    height: auto !important;
+  }
+  .footerItems {
+    height: auto !important;
+  }
+  .footerItem {
+    float: left !important;
+  }
+  .footerItem:nth-child(2),
+  .footerItem:nth-child(3) {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  p.name {
+    top: 25%;
+  }
+  p.team_member-position {
+    top: 60%;
+  }
+  .bottomIcons {
+    width: 690px;
+    height: 460px;
+    bottom: -335px;
+  }
+  #testenForm input[type="checkbox"] ~ span.help-block.form-error {
+    line-height: normal;
+    text-align: left;
+  }
+  #testenForm p + span.form-error {
+    margin-top: 0;
+  }
+  .navbar-brand img {
+    width: 220px;
+  }
+  .navbar-nav > li > a {
+    font-size: 16px;
+    padding-left: 12px;
+    padding-right: 0px;
+  }
+  .desktop_team {
+    display: none;
+  }
+  .mobile_team {
+    display: block;
+  }
+  .cornerText {
+    word-spacing: 4px;
+    font-size: 15px;
+  }
+  .insurance-app img {
+    width: 110px;
+  }
+  .insurance-app {
+    height: 580px;
+  }
+
+  .buttons {
+    bottom: 70px;
+  }
+
+  #carousele {
+    height: 380px;
+  }
+
+  a.jetzt_testen {
+    margin: 0 auto;
+  }
+
+  #team {
+    background-image: linear-gradient(0.5turn, #f7f7f7 220px, #fff 220px);
+  }
+
+  .teamContainer .content_img,
+  .content_img .image {
+    width: 115px;
+    height: auto;
+  }
+
+  a.carousel-control.left {
+    left: -30px;
+  }
+
+  a.carousel-control.right {
+    right: -30px;
+  }
+
+  .page {
+    width: 97%;
+  }
+
+  h1 {
+    font: 700 3.5em Roboto, Arial, Helvetica;
+  }
+
+  h4 {
+    font: 300 1.3em Roboto, Arial, Helvetica;
+  }
+
+  .partnerLogos {
+    width: 700px;
+  }
+
+  .partners img {
+    margin: 0 15px 25px 0;
+    width: 157px;
+  }
+
+  .services ul li {
+    width: 9em;
+    height: 9em;
+  }
+
+  figure.effect-chico figcaption {
+    padding: 2em;
+  }
+
+  figure.effect-oscar figcaption {
+    padding: 20%;
+  }
+
+  figure.effect-chico figcaption::before {
+    top: 10px;
+    right: 10px;
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .grid figure.effect-chico p {
+    font-size: 0.6em;
+    line-height: 1.5em;
+  }
+
+  #head,
+  .carousel {
+    margin-top: 0;
+  }
+
+  #carousele div.selected {
+    background-position-y: 255px;
+    background-position-x: center;
+  }
+
+  .about.spacer {
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #carousele div img {
+    width: 200px;
+  }
+
+  #carousele div.prev img,
+  #carousele div.next img {
+    width: 175px;
+  }
+
+  #carousele div.prevLeftSecond img,
+  #carousele div.nextRightSecond img {
+    width: 142px;
+  }
+
+  .newsContainerItem {
+    height: auto !important;
+  }
+
+  #news img {
+    margin: 22px 7px;
+    width: auto;
+    margin: 15px auto;
+    text-align: center;
+    float: none;
+  }
+
+  #news img.underlineNews {
+    margin-bottom: 0;
+  }
+
+  .newsContainer {
+    padding-bottom: 50px;
+  }
+
+  a.readmore {
+    bottom: 10px;
+  }
+  .contactTitle {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .footerDesc,
+  .footerDescItem p {
+    font-size: 12px;
+  }
+
+  .footerCopyright,
+  .footerCopyright a {
+    font-size: 14px;
+  }
+
+  .uberuncContainer .col-md-5.col-xs-5 {
+    height: 235px;
+    padding-left: 0;
+  }
+
+  #uberuns {
+    height: auto !important;
+  }
+
+  .uberuncContainer img {
+    width: auto;
+  }
+
+  span.line-team img {
+    margin-top: 1px;
+  }
+
+  p.title-schaden {
+    margin: 0 auto;
+  }
+
+  #shandenMelden .fieldQuestions.area {
+    margin-top: 15px;
+  }
+
+  #shandenMelden button#schadenMeldenButton {
+    float: none;
+    left: 0;
+    font-size: 16px;
+  }
+
+  #shandenMelden .fieldQuestions .col-md-6 span.attach {
+    margin-top: 10px;
+  }
+
+  .box:nth-child(4),
+  .box:nth-child(8),
+  .box:nth-child(12) {
+    background-color: #fff;
+  }
+
+  .box:nth-child(1),
+  .box:nth-child(3),
+  .box:nth-child(5),
+  .box:nth-child(7),
+  .box:nth-child(9),
+  .box:nth-child(11) {
+    background-color: #f7f7f7;
+  }
+
+  .firmenKunden img {
+    width: 300px;
+    margin: 20px 0;
+  }
+
+  .box:nth-child(1) {
+    height: auto;
+  }
+
+  .box:nth-child(1) img {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .firmenKunden .col-md-6.box {
+    height: 700px;
+  }
+
+  .autoQuestionButtons div {
+    margin-bottom: 20px;
+  }
+
+  /* Investoren */
+  .first-section .cornerText {
+    top: 60px !important;
+  }
+
+  #team-two .teamContainer.container {
+    width: 625px;
+  }
+
+  .footer-section {
+    height: auto !important;
+  }
+
+  .footer-section .footerItems {
+    top: 0;
+  }
+
+  .footer-section .footerItem {
+    margin-top: 0;
+  }
+
+  .footer-section .footerCopyright,
+  .footerCopyright a {
+    line-height: 35px;
+  }
+
+  /* End of Investoren */
+  #lebensversicherungSecondQuestion
+    .inputForms
+    div:nth-child(3)
+    .area
+    .area
+    span.input {
+    width: 150px !important;
+  }
+
+  #lebensversicherungSecondQuestion
+    .inputForms
+    div:nth-child(3)
+    .area
+    .von-bis {
+    margin-left: 8.33333333%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  p.name {
+    top: 30%;
+  }
+  .navbar-nav {
+    margin: 0 -15px;
+  }
+  .navbar-wrapper .container {
+    padding: 0;
+  }
+  .bannerText {
+    top: 180px;
+    left: 0;
+    padding-left: 30px;
+    padding-right: 15px;
+  }
+  .bannerText p.smallText {
+    line-height: 27px;
+  }
+  .bottomIcons {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    padding-bottom: 30px;
+    border-radius: 0;
+  }
+  .bottomSingleIcon {
+    width: 80px;
+    padding: 10px;
+    margin-top: -50px;
+  }
+  .bottomAllIcons {
+    width: 90%;
+    margin-top: 13px;
+  }
+  .desktop_underline {
+    display: none;
+  }
+  .mobile_underline {
+    display: block;
+  }
+  .buttons button#prev-button img,
+  .buttons button#next-button img {
+    margin: 0;
+  }
+  .security-element p:nth-child(2) {
+    display: none;
+  }
+  .security-element p:last-child {
+    display: block;
+  }
+  span.help-block.form-error {
+    left: 0;
+    right: auto;
+  }
+  .genderFields {
+    margin-right: auto !important;
+    margin-bottom: 20px;
+  }
+  label.visa-label {
+    text-align: left !important;
+  }
+  .visa-type .cards {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .display-flex,
+  .flex-box {
+    display: block;
+  }
+  .schaden_melden-buttons {
+    margin: auto;
+  }
+  .input:not(.small-input):not(.mannlich):not(.weiblich) {
+    display: block !important;
+    width: 250px;
+    float: none;
+    clear: left;
+    margin: 10px auto;
+  }
+  .cards .input {
+    width: 32px !important;
+  }
+  #shandenMelden span.help-block.form-error {
+    bottom: -5px;
+  }
+  #autoversicherungSeventhQuestion .inputFieldsForm {
+    min-height: 560px;
+  }
+  #autoversicherungEightQuestion .fieldQuestions label,
+  #hausratversicherungNinthQuestion
+    .inputForms
+    .fieldQuestions:nth-child(3)
+    select {
+    width: 100% !important;
+  }
+  #autoversicherungEightQuestion .fieldQuestions .underlineInputs {
+    width: 100%;
+  }
+  #autoversicherungSeventhQuestion
+    .button-container-width
+    .input.input-radio:first-child {
+    margin-left: auto !important;
+    display: inline-block !important;
+  }
+  #autoversicherungSeventhQuestion
+    .button-container-width
+    .input.input-radio:last-child {
+    margin-right: auto !important;
+    display: inline-block !important;
+  }
+  #hausratversicherungFifthQuestion .fieldQuestions label {
+    max-width: 200px !important;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #hausratversicherungFifthQuestion span.help-block.form-error {
+    bottom: -5px;
+  }
+  #rechtsschutzThirdQuestion .inputForms > div {
+    float: none;
+  }
+  #rechtsschutzThirdQuestion span.help-block.form-error,
+  #lebensversicherungFirstQuestion span.help-block.form-error,
+  #lebensversicherungThirdQuestion span.help-block.form-error,
+  #reiseversicherungFirstQuestion span.help-block.form-error,
+  #gebaudeversicherungFirstQuestion span.help-block.form-error,
+  #gebaudeversicherungSecondQuestion span.help-block.form-error,
+  #gebaudeversicherungThirdQuestion span.help-block.form-error,
+  #kautionsversicherungForm span.help-block.form-error,
+  #sauleFirstQuestion span.help-block.form-error,
+  #erwerbsunfahigkeitFirstQuestion span.help-block.form-error,
+  #erwerbsunfahigkeitThirdQuestion span.help-block.form-error {
+    bottom: -5px;
+  }
+  #rechtsschutzThirdQuestion .fieldQuestions,
+  #lebensversicherungFirstQuestion .fieldQuestions {
+    float: left;
+  }
+  #shandenMelden .fieldQuestions:nth-child(7) span.help-block.form-error {
+    bottom: -18px;
+  }
+  #lebensversicherungFirstQuestion
+    .fieldQuestions:nth-child(13)
+    span.help-block.form-error,
+  #rechtsschutzThirdQuestion
+    .inputFieldsForm
+    .fieldQuestions:nth-child(11)
+    span.help-block.form-error,
+  #gebaudeversicherungFirstQuestion
+    .fieldQuestions:nth-child(12)
+    span.help-block.form-error,
+  #sauleFirstQuestion .fieldQuestions:nth-child(13) span.help-block.form-error,
+  #sauleThirdQuestion .fieldQuestions span.help-block.form-error,
+  #sauleFourthQuestion .fieldQuestions span.help-block.form-error,
+  #erwerbsunfahigkeitFirstQuestion
+    .fieldQuestions:nth-child(13)
+    span.help-block.form-error {
+    bottom: -15px;
+  }
+  #lebensversicherungFourthQuestion .fieldQuestions {
+    width: 100% !important;
+  }
+  #lebensversicherungFourthQuestion .fieldQuestions label {
+    width: 100% !important;
+    height: auto;
+    line-height: 20px;
+  }
+  #sauleThirdQuestion span.help-block.form-error {
+    left: 0;
+    bottom: -5px;
+    transform: initial;
+  }
+  #sauleThirdQuestion .fieldQuestions,
+  #sauleThirdQuestion .fieldQuestions label {
+    height: auto !important;
+  }
+  #hausratversicherungNinthQuestion .cards,
+  #lebensversicherungFourthQuestion .fieldQuestions:nth-child(2),
+  #gebaudeversicherungSecondQuestion .fieldQuestions:nth-child(2),
+  #gebaudeversicherungSecondQuestion .fieldQuestions:nth-child(5),
+  #gebaudeversicherungThirdQuestion .fieldQuestions,
+  #kautionsversicherungFirstQuestion .fieldQuestions:nth-child(14),
+  #erwerbsunfahigkeitThirdQuestion .fieldQuestions:nth-child(2),
+  #erwerbsunfahigkeitFourthQuestion .fieldQuestions:nth-child(3),
+  .cards {
+    clear: left;
+  }
+  #erwerbsunfahigkeitThirdQuestion .area.flex-box {
+    display: block;
+  }
+  #erwerbsunfahigkeitFifthQuestion .inputFieldsForm.inputForms {
+    top: 5%;
+  }
+  #erwerbsunfahigkeitFourthQuestion .fieldQuestions label,
+  #erwerbsunfahigkeitFourthQuestion .fieldQuestions .underlineInputs {
+    clear: left;
+    height: auto;
+  }
+  #erwerbsunfahigkeitFourthQuestion
+    .fieldQuestions:nth-child(3)
+    span.help-block.form-error {
+    bottom: -5px;
+  }
+  #erwerbsunfahigkeitFourthQuestion
+    .fieldQuestions:nth-child(3)
+    span.help-block.form-error {
+    left: 0;
+    transform: translateX(0);
+    bottom: 0;
+  }
+  .p-t-100 {
+    padding-top: 0;
+  }
+
+  .newsItemDesc > p.desc {
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .newsItemDesc > p:nth-child(2) {
+    margin-top: 50px;
+  }
+
+  .newsItemDesc > p:nth-child(3) {
+    margin-bottom: 30px;
+  }
+
+  .uberunsDesc {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+  }
+
+  .box-news {
+    margin: 0 20% 50px !important;
+    width: 280px;
+    height: 480px;
+  }
+
+  .orange button,
+  .aqua button {
+    margin-top: 80px;
+  }
+
+  .green button {
+    margin-top: 85px;
+  }
+
+  .border-top h3 {
+    font-size: 14px;
+  }
+
+  label.col-xs-12.all-div {
+    width: 100% !important;
+  }
+
+  #sauleFirstQuestion .fieldQuestions label.visa-label {
+    padding-left: 15px;
+  }
+
+  .cards .input label {
+    height: 45px !important;
+    line-height: 45px !important;
+  }
+
+  #sauleFirstQuestion .cards {
+    top: 10px;
+  }
+
+  #erwerbsunfahigkeitFourthQuestion .help-block.form-error {
+    line-height: 2 !important;
+    margin-left: 0 !important;
+  }
+
+  .set-bottom {
+    position: relative;
+  }
+
+  .page-wrapper {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .navbar-nav > li > a {
+    line-height: 1em;
+  }
+
+  .navbar-brand {
+    padding: 7px;
+  }
+
+  .navbar-brand img {
+    width: 300px;
+  }
+
+  .cornerText {
+    word-spacing: 1px;
+    font-size: 24px;
+  }
+
+  .navbar-toggle {
+    margin-top: 12px;
+  }
+
+  .navbar-inverse .navbar-toggle {
+    border-color: #333;
+    position: absolute;
+    right: 10px;
+    background: transparent !important;
+    border: 0;
+  }
+
+  .navbar-nav > li {
+    text-align: center;
+  }
+
+  ul.nav.navbar-nav.navbar-right.scroll {
+    height: auto !important;
+    background: rgb(58, 72, 165);
+    position: relative;
+  }
+
+  .navbar-collapse.collapse ul {
+    display: none;
+  }
+
+  .navbar-collapse.in ul {
+    display: block;
+    height: 0 !important;
+  }
+
+  .carousel-caption,
+  .carousel-control,
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-inner .item img {
+    object-fit: cover !important;
+  }
+
+  .navbar-collapse.collapse {
+    margin-left: 0;
+  }
+
+  h2.text-center {
+    text-align: center;
+    font-size: 1.7em;
+  }
+
+  h4 {
+    font: 300 1.2em "Roboto", Arial, Helvetica;
+  }
+
+  #partners h2 {
+    padding: 0 1em;
+  }
+
+  .notification {
+    display: none !important;
+  }
+
+  .bannerText p {
+    font-size: 28px;
+  }
+
+  p.smallText {
+    font-size: 16px;
+  }
+
+  .bannerText img {
+    left: 0;
+    width: 100%;
+  }
+
+  .cornerText {
+    margin-left: 45px;
+  }
+
+  .partners-container {
+    width: 400px;
+  }
+
+  .partners {
+    display: block;
+    float: left;
+  }
+
+  .partnerLogos {
+    width: 100%;
+  }
+
+  .partnerItem {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+
+  .partners img {
+    width: 100px;
+  }
+
+  .partnersImages img {
+    display: block;
+    margin: auto;
+  }
+
+  .about.spacer {
+    padding-bottom: 4em;
+    min-height: 750px;
+  }
+
+  .spacer {
+    padding: 2em 0 0 0;
+  }
+
+  .services ul li {
+    margin-bottom: 1em;
+  }
+
+  .highlight-info .overlay {
+    padding-bottom: 2em;
+  }
+
+  .grid.team div {
+    margin: 0;
+    padding-bottom: 10px;
+  }
+
+  figure.effect-chico figcaption {
+    padding: 1.5em;
+  }
+
+  .footer {
+    margin-top: 0;
+    padding-bottom: 2em;
+  }
+
+  #head,
+  .carousel {
+    margin-top: 0;
+  }
+
+  #carousele div.selected {
+    background-image: none;
+  }
+
+  #carousele div img {
+    width: 165px;
+  }
+
+  #carousele div.prev img,
+  #carousele div.next img {
+    width: 140px;
+  }
+
+  #carousele div.prevLeftSecond img,
+  #carousele div.nextRightSecond img {
+    width: 120px;
+  }
+
+  #carousele .selected p {
+    font-size: 24px;
+  }
+
+  #carousele {
+    height: 290px;
+    top: 50%;
+  }
+
+  .downloadPlaces img {
+    width: 120px;
+  }
+
+  .newsContainer {
+    width: 100%;
+  }
+
+  .col-xs-12 {
+    width: 100% !important;
+  }
+
+  .newsItemDesc > p:first-child {
+    text-align: center;
+  }
+
+  #uberuns,
+  .teamContainer {
+    height: auto !important;
+  }
+
+  #team {
+    height: auto !important;
+  }
+
+  #news .newsItemImage img {
+    width: auto;
+  }
+
+  #shandenMelden .fieldQuestions .col-md-6 span.attach {
+    margin-top: 0;
+  }
+
+  p.name {
+    font-size: 14px;
+  }
+
+  p.desc {
+    font-size: 12px;
+  }
+
+  #contact {
+    margin-top: 0 !important;
+    height: auto;
+  }
+
+  .contactData > img {
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contactContainer {
+    position: static;
+    margin-top: -275px;
+  }
+
+  .footerItems {
+    position: unset;
+  }
+
+  .footerItem {
+    margin-top: 0;
+  }
+
+  .footer #underline {
+    margin-bottom: 0;
+  }
+
+  #jetztBerechnen {
+    margin: 22px auto;
+    float: none;
+  }
+
+  #autoversicherungSeventhQuestion {
+    padding-top: 25px;
+  }
+
+  .fieldQuestions {
+    display: block;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .fieldQuestions label {
+    text-align: left;
+    height: 15px;
+    line-height: 15px;
+  }
+
+  .pannenhilfeUnfall {
+    margin-top: 0px;
+  }
+
+  .pannenhilfeUnfall div.col-xs-12 {
+    padding: 0;
+  }
+
+  .questionsInCenter {
+    min-height: 525px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .autoQuestionButtons {
+    top: 15%;
+  }
+
+  #autoversicherungThirdQuestion .autoQuestionButtons {
+    top: 27%;
+    padding: 0;
+  }
+
+  #autoversicherungFifthQuestion .area {
+    margin-top: -50px !important;
+  }
+
+  #autoversicherungEightQuestion .fieldQuestions:nth-child(9) label {
+    margin-left: 0;
+  }
+
+  #autoversicherungSeventhQuestion .area .input {
+    margin: 0px 10px 6px 0;
+  }
+
+  #hausratversicherungFourthQuestion p.versicherungssumme {
+    margin-top: 200px;
+  }
+
+  #hausratversicherungNinthQuestion {
+    height: auto !important;
+  }
+
+  .sixth-question-form .fieldQuestions label {
+    text-align: left;
+    padding: 0;
+    line-height: 15px;
+  }
+
+  .sixth-question-form .fieldQuestions input {
+    height: 30px;
+  }
+
+  #privathaftpflichtThirdQuestion .autoQuestionButtons {
+    top: 1%;
+  }
+
+  #hausratversicherungSeventhQuestion .fieldQuestions.area label,
+  #privathaftpflichtFourteenthQuestion .fieldQuestions.area label {
+    line-height: 50px;
+    margin: 0;
+    text-align: center;
+  }
+
+  #hausratversicherungSeventhQuestion .fieldQuestions:first-child .input,
+  #privathaftpflichtFourteenthQuestion .fieldQuestions:first-child .input {
+    margin-right: 10px;
+    margin-left: 0px;
+  }
+
+  #hausratversicherungSeventhQuestion
+    .questionnaireBottomButtons
+    #privathaftpflichtFourteenthQuestion
+    .questionnaireBottomButtons {
+    position: relative;
+    bottom: 0;
+  }
+
+  #hausratversicherungSeventhQuestion
+    .inputForms
+    .fieldQuestions:nth-child(3)
+    label,
+  #privathaftpflichtFourteenthQuestion
+    .inputForms
+    .fieldQuestions:nth-child(3)
+    label {
+    line-height: normal;
+    text-align: left;
+    margin-top: 15px;
+    height: 18px;
+  }
+
+  #hausratversicherungSeventhQuestion
+    .inputForms
+    .fieldQuestions:nth-child(3)
+    select,
+  #privathaftpflichtFourteenthQuestion
+    .inputForms
+    .fieldQuestions:nth-child(3)
+    select {
+    margin-left: 0;
+  }
+
+  p.sixth-question-p {
+    margin: 25px 0;
+    line-height: normal;
+  }
+
+  #autoversicherungSecondQuestion .autoQuestionButtons.area {
+    top: 25%;
+    padding: 0;
+  }
+
+  #result-form {
+    padding: 0 !important;
+  }
+
+  .scroll_table td,
+  th,
+  .first-row th,
+  .second-row th {
+    text-align: left;
+  }
+
+  img.underlineNews {
+    width: 100% !important;
+  }
+
+  /* Investoren */
+  .navbar-two .navbar-toggle {
+    display: none;
+  }
+
+  .first-section .cornerText {
+    left: 0px;
+  }
+
+  .first-section {
+    padding-top: 150px;
+  }
+
+  .footer-section {
+    height: auto !important;
+  }
+
+  .footer-section #underline {
+    margin-bottom: 13px;
+  }
+
+  .footer-section .footerCopyright,
+  .footerCopyright a {
+    line-height: 0;
+  }
+
+  /* End of Investoren */
+  div#lebensversicherungThirdQuestion {
+    height: 500px !important;
+    overflow: unset;
+  }
+
+  /* .inputForms .area:nth-child(2) {
+		display: flex;
+		width: 50%;
+		margin-left: 21.666667%;
+		padding: 10px 0;
+		float: none;
+		justify-content: space-between;
+	} */
+  label.visa-label {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
+  #reiseversicherungSecondQuestion .autoQuestionButtons {
+    top: 15% !important;
+  }
+  .inline-block {
+    display: inline-block !important;
+    margin: auto !important;
+    width: 100%;
+  }
+  .inline-block span {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  #lebensversicherungSecondQuestion
+    div:nth-child(3)
+    .area.inline-block
+    .area.flex-space-between {
+    margin: auto;
+    text-align: center;
+  }
+  #lebensversicherungSecondQuestion
+    div:nth-child(3)
+    .area.inline-block
+    .von-bis
+    input {
+    margin: 0;
+  }
+  #gebaudeversicherungSecondQuestion .area.inline-block.display-flex,
+  #gebaudeversicherungThirdQuestion .area.inline-block.display-flex,
+  #kautionsversicherungFirstQuestion .area.inline-block.display-flex,
+  #erwerbsunfahigkeitSecondQuestion .area.inline-block.display-flex,
+  #erwerbsunfahigkeitThirdQuestion .area.inline-block.display-flex {
+    width: 100%;
+  }
+  #lebensversicherungThirdQuestion .area .input {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  #sauleThirdQuestion .area.inline-block.flex-space-between {
+    width: 250px;
+  }
+  #sauleThirdQuestion .area .input {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .von-bis {
+    width: 100%;
+    margin: 0px auto !important;
+  }
+  #lebensversicherungFourthQuestion .inputForms .area:nth-child(3) {
+    width: 50%;
+  }
+  #reiseversicherungThirdQuestion .inputForms .area:nth-child(2),
+  #erwerbsunfahigkeitFourthQuestion .inputForms .area:nth-child(2),
+  #erwerbsunfahigkeitFourthQuestion .inputForms .area:nth-child(4) {
+    width: 100%;
+  }
+
+  #lebensversicherungSecondQuestion
+    .inputForms
+    div:nth-child(3)
+    .area
+    .area
+    span.input {
+    width: 100% !important;
+  }
+
+  #testenForm .genderFields {
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  #testenForm .mannlich,
+  #testenForm .weiblich {
+    width: 80px !important;
+    float: none;
+    display: inline-block;
+  }
+
+  #testenForm .mannlich {
+    margin-right: 10px;
+  }
+
+  #testenForm .weiblich {
+    margin-left: 10px;
+  }
+
+  #testenForm .fieldQuestions {
+    line-height: normal;
+    margin-top: 10px;
+  }
+
+  #testenForm span.form-error {
+    margin-top: -35px;
+    margin-left: 0 !important;
+  }
+
+  #testenForm .left-element {
+    margin-right: auto;
+    width: 260px !important;
+  }
+
+  #testenForm .right-element {
+    width: 260px;
+    margin-left: auto;
+    margin-top: 0;
+  }
+
+  #testenForm .mt-xs-40 {
+    margin-top: 40px !important;
+  }
+
+  .questionnaireBottomButtons {
+    left: 0;
+    bottom: -40px;
+  }
+
+  #lebensversicherungFourthQuestion .fieldQuestions {
+    height: 80px;
+  }
+
+  #hypothekFirstQuestion .questionnaireBottomButtons {
+    background: transparent;
+  }
+
+  .visa-type {
+    height: 80px;
+  }
+
+  section.body {
+    background-position-y: 200px;
+    background-size: 23%;
+  }
+
+  section.testen {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .fallback p {
+    font-size: 16px;
+  }
+
+  #gebaudeversicherungSecondQuestion .fieldQuestions label,
+  #gebaudeversicherungSecondQuestion .fieldQuestions .underlineInputs {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .autoQuestionSubtitle {
+    font-size: 16px;
+  }
+
+  #sauleFourthQuestion .fieldQuestions .underlineInputs {
+    margin-top: 10px;
+  }
+
+  #gebaudeversicherungThirdQuestion .fieldQuestions {
+    padding-left: 0;
+  }
+
+  #privathaftpflichtFourteenthQuestion .fieldQuestions.area:nth-child(3),
+  #hausratversicherungSeventhQuestion .fieldQuestions.area:nth-child(3) {
+    padding: 0;
+    padding-right: 0px;
+    padding-right: 15px;
+  }
+
+  #privathaftpflichtFourteenthQuestion.questionsInCenter {
+    overflow: hidden;
+  }
+
+  #jetztOffertenErhalten {
+    height: 40px;
+    padding-top: 0;
+  }
+
+  .height-static-scroll-controll {
+    height: calc(100vh - 235px);
+    float: left;
+    overflow: auto;
+    margin-left: -15px;
+  }
+
+  #hausratversicherungThirdQuestion .fieldQuestions,
+  #hausratversicherungThirdQuestion .fieldQuestions label,
+  #hausratversicherungThirdQuestion .fieldQuestions input {
+    padding: 0;
+    margin: 0;
+  }
+
+  #autoversicherungEightQuestion textarea#comm {
+    height: 55px;
+    overflow: scroll;
+    resize: none;
+  }
+
+  .button-container-width {
+    padding: 0;
+  }
+
+  #prevPrevBttn,
+  #nextPrevBttn {
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .prevButton,
+  .nextButton {
+    padding-left: 0 !important;
+  }
+
+  .fieldQuestions,
+  #autoversicherungSeventhQuestion .fieldQuestions {
+    margin: 0 auto 20px;
+    padding-right: 15px;
+  }
+
+  .underlineInputs,
+  #autoversicherungSeventhQuestion .fieldQuestions .underlineInputs {
+    padding: 0;
+    margin: 0;
+    height: initial;
+  }
+
+  #autoversicherungSeventhQuestion span.help-block.form-error,
+  #autoversicherungEightQuestion span.help-block.form-error {
+    bottom: -5px;
+  }
+  #autoversicherungSeventhQuestion
+    .fieldQuestions:nth-child(7)
+    span.help-block.form-error {
+    bottom: -25px;
+  }
+  #autoversicherungEightQuestion .inputFieldsForm > div:first-child,
+  #privathaftpflichtFourteenthQuestion .inputForms > div:first-child,
+  #hausratversicherungNinthQuestion .inputForms > div:first-child,
+  #reiseversicherungFirstQuestion .inputFieldsForm > div:nth-child(2),
+  #gebaudeversicherungFirstQuestion .inputFieldsForm > div:nth-child(2),
+  #kautionsversicherungFirstQuestion .inputFieldsForm > div:first-child,
+  #sauleFirstQuestion .inputFieldsForm > div:nth-child(2),
+  #erwerbsunfahigkeitFirstQuestion .inputFieldsForm > div:nth-child(2) {
+    width: 100%;
+  }
+
+  #hausratversicherungNinthQuestion .fieldQuestions:first-child .input,
+  #privathaftpflichtFourteenthQuestion .fieldQuestions:first-child .input {
+    width: 100px !important;
+    margin-top: 15px;
+    margin-left: -10px;
+    margin-right: 20px;
+  }
+
+  #rechtsschutzThirdQuestion .questionnaireBottomButtons {
+    bottom: 0;
+    background: #fff;
+    height: 50px;
+  }
+
+  #rechtsschutzThirdQuestion .fieldQuestions:first-child .input {
+    margin: 0;
+    margin-right: 20px;
+    width: 90px !important;
+    margin-left: -15px;
+  }
+
+  .insuranceQuestions {
+    padding: 0;
+  }
+
+  #continueKontaktdaten {
+    float: none;
+  }
+
+  .insuranceQuestionsFirstColumn .form-group,
+  .insuranceQuestionsSecondColumn .form-group {
+    padding: 0;
+  }
+
+  #KrankenKasseCalcForm span.help-block.form-error {
+    left: 15px;
+    bottom: -15px;
+    line-height: 1;
+  }
+
+  #KrankenKasseCalcForm #kontaktdaten span.help-block.form-error {
+    top: 33px;
+    position: absolute;
+    left: 0;
+    line-height: 1;
+    text-align: left;
+  }
+
+  #KrankenKasseCalcForm #btn-offerte {
+    float: none;
+  }
+
+  #kontaktdaten .ie-zipcode,
+  #kontaktdaten .ie-city {
+    float: left;
+    width: 100%;
+    height: 50px;
+    padding: 0;
+  }
+
+  #kontaktdaten .rightcolumn .form-group {
+    float: left;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .rightcolumn .form-group:nth-child(1) {
+    height: 100px !important;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  #kontaktdaten .rightcolumn .form-group div input {
+    padding: 0;
+    width: 100%;
+  }
+
+  .rightcolumn {
+    width: 100%; /*left: ;*/
+    float: left;
+  }
+
+  #kontaktdaten .rightcolumn .form-group div {
+    padding: 0;
+  }
+
+  .rightcolumn .help-block.form-error {
+    margin-left: 0 !important;
+  }
+
+  #alternatives-checkboxes .form-group .offerte {
+    position: relative;
+    float: left;
+    width: 100%;
+  }
+
+  #kontaktdaten .form-group label.control-label {
+    display: none;
+  }
+
+  #loader_id {
+    float: none;
+    margin: auto !important;
+  }
+
+  #hausratversicherungThirdQuestion .area .input {
+    margin-bottom: 20px;
+  }
+
+  #hausratversicherungSeventhQuestion .area .input {
+    margin-bottom: 0;
+  }
+
+  .contactData .col-xs-6 p {
+    font-size: 11px;
+  }
+
+  .contactContainer,
+  .contactData {
+    height: auto !important;
+  }
+
+  .contactData {
+    margin-top: 30px;
+  }
+
+  .contactName,
+  .contactEmail {
+    padding: 0;
+  }
+
+  .footerItems {
+    top: -90px;
+  }
+
+  .footerItem:last-child {
+    float: none;
+  }
+
+  .prevButton {
+    padding-right: 0;
+  }
+
+  #versicherungAbschliessenForm .fieldQuestions:nth-child(4) label {
+    width: -moz-available !important;
+    width: -webkit-fill-available !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .buttons {
+    bottom: 80px;
+  }
+  .bannerText p {
+    font-size: 17px;
+    line-height: 27px;
+  }
+  .bottomAllIcons {
+    width: 100%;
+  }
+  .bottomAllIcons img {
+    width: auto !important;
+    height: 45px !important;
+  }
+  a.jetzt_testen {
+    font-size: 15px;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 50px;
+  }
+  .firmenKunden ul.cyberversicherung li {
+    width: 100%;
+    margin-top: 10px;
+  }
+  .firmenKunden ul.cyberversicherung li:before {
+    float: left;
+    width: 8%;
+    font-size: 28px;
+    height: 35px;
+    margin-left: 0;
+    color: rgb(58, 72, 165);
+    padding-top: 10px;
+  }
+  ul.cyberversicherung li span {
+    font-size: 14px;
+    width: 88%;
+    float: left;
+    line-height: 1;
+  }
+  #team .col-xs-10,
+  #team .col-md-3 {
+    width: 90%;
+    padding: 0;
+  }
+  .notification-part p {
+    font-size: 14px;
+  }
+
+  #versicherungAbschliessenForm .fieldQuestions:nth-child(15) label {
+    line-height: normal !important;
+    height: 28px;
+  }
+
+  #versicherungAbschliessenForm .fieldQuestions:nth-child(16) {
+    padding-top: 31px;
+  }
+
+  h4.questionnaireNtfc-SubTittle {
+    font-size: 22px;
+  }
+
+  img.questionnaireNtfc-img {
+    width: 100%;
+    margin: 0 auto !important;
+  }
+
+  .box-news {
+    margin: 0 0% 50px !important;
+    width: 90%;
+  }
+
+  .autoQuestionTitle {
+    font-size: 15px;
+  }
+
+  #privathaftpflichtFifthQuestion .autoQuestionButtons {
+    top: initial;
+  }
+
+  #lebensversicherungFirstQuestion .fieldQuestions {
+    height: 75px;
+  }
+
+  #lebensversicherungFirstQuestion .fieldQuestions:nth-child(14),
+  #sauleFirstQuestion .fieldQuestions:nth-child(14),
+  #erwerbsunfahigkeitFirstQuestion .fieldQuestions:nth-child(14) {
+    height: 95px;
+  }
+
+  .fallback {
+    background-size: 20%;
+    background-position-x: 15px;
+  }
+  .fallback p {
+    width: 60%;
+    text-align: left;
+    margin-right: 15px;
+  }
+  #reiseversicherungFirstQuestion .fieldQuestions,
+  #gebaudeversicherungFirstQuestion .fieldQuestions,
+  #kautionsversicherungFirstQuestion .fieldQuestions,
+  #sauleFirstQuestion .fieldQuestions,
+  #erwerbsunfahigkeitFirstQuestion .fieldQuestions {
+    height: 75px;
+  }
+  #erwerbsunfahigkeitThirdQuestion .fieldQuestions {
+    margin-top: 20px;
+  }
+  #erwerbsunfahigkeitThirdQuestion .area.flex-box {
+    flex-wrap: wrap;
+  }
+  #erwerbsunfahigkeitThirdQuestion .area.flex-box span.input.input-radio {
+    flex: 0 0 100%;
+    margin-left: 0;
+  }
+  #erwerbsunfahigkeitThirdQuestion .fieldQuestions {
+    height: 95px !important;
+  }
+  #hausratversicherungNinthQuestion .questionnaireBottomButtons #prevPrevBttn,
+  #hausratversicherungNinthQuestion .questionnaireBottomButtons #nextPrevBttn,
+  #privathaftpflichtFourteenthQuestion
+    .questionnaireBottomButtons
+    #prevPrevBttn,
+  #privathaftpflichtFourteenthQuestion
+    .questionnaireBottomButtons
+    #nextPrevBttn {
+    padding: 0;
+  }
+
+  #hausratversicherungNinthQuestion
+    .questionnaireBottomButtons
+    #jetztOffertenErhalten,
+  #privathaftpflichtFourteenthQuestion
+    .questionnaireBottomButtons
+    #jetztOffertenErhalten {
+    margin-left: 10px;
+  }
+
+  .carousel-inner .item img {
+    /* yjet */
+    /* object-fit: none!important; */
+    margin-top: -10 5px;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  b,
+  strong {
+    margin-top: 10px;
+  }
+
+  #head,
+  .carousel {
+    margin-top: 0;
+  }
+
+  .navbar-brand img {
+    width: 180px;
+    height: auto;
+    margin: 14px 0;
+  }
+
+  .cornerText {
+    font-size: 16px;
+    top: 90px;
+  }
+
+  p.smallText {
+    font-size: 14px;
+  }
+
+  .partners img {
+    width: 100px;
+  }
+
+  .about.spacer {
+    padding-top: 70px;
+    min-height: 920px;
+    padding-bottom: 0;
+  }
+
+  #carousele div.prev img,
+  #carousele div.next img {
+    width: 125px;
+  }
+
+  #carousele div.prevLeftSecond img,
+  #carousele div.nextRightSecond img {
+    width: 95px;
+  }
+
+  .about h1,
+  #works h1,
+  #news h1,
+  #uberuns h1,
+  #team h1,
+  #contact h1,
+  #unsereEmpfehlung h1,
+  .popdown-content-impressum h1 {
+    font-size: 1.7em;
+  }
+
+  .tab_content img {
+    width: 70px;
+  }
+
+  .tab_content p {
+    font-size: 14px;
+  }
+
+  #contact {
+    margin-top: 20px;
+  }
+
+  #partners div {
+    padding-top: 0;
+  }
+
+  .uberuncContainer img {
+    width: 100%;
+  }
+
+  .about img {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  img.inscurance-giff {
+    width: 100%;
+  }
+
+  #team {
+    margin-top: 60px;
+  }
+
+  .footerItem {
+    margin-top: 50px;
+    clear: both;
+  }
+
+  .contactSocialMedia {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footerCopyright {
+    width: 230px;
+  }
+
+  .footerCopyright,
+  .footerCopyright a {
+    font-size: 12px;
+  }
+
+  .contactFormular,
+  .contactData {
+    width: 100% !important;
+  }
+
+  .footerHeaders {
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .footerDescItem p {
+    width: 100%;
+    word-break: break-word;
+  }
+
+  .footerDescItem img {
+    width: 18px;
+    height: 30px;
+  }
+
+  .footer #underline {
+    margin-bottom: 15px;
+  }
+
+  .contactEmail {
+    padding-left: 0;
+  }
+
+  .contactName {
+    padding-right: 0;
+  }
+
+  #hypothekContactForm p.contactTitle {
+    padding-left: 10px;
+  }
+
+  .questionsInCenter {
+    height: calc(100vh - 240px);
+  }
+
+  #shandenMelden .fieldQuestions {
+    display: block;
+    line-height: normal;
+    margin-bottom: 15px;
+  }
+
+  #shandenMelden .fieldQuestions label.col-md-6 {
+    width: 50%;
+    height: auto;
+    line-height: 20px;
+  }
+
+  #shandenMelden .fieldQuestions input.underlineInputs {
+    margin: 0 0;
+  }
+
+  #shandenMelden textarea#schadenhergang,
+  #shandenMelden textarea#schadenhergang:focus {
+    margin: 15px 0;
+  }
+
+  p.title-schaden {
+    text-align: center;
+  }
+
+  #shandenMelden .fieldQuestions.area {
+    margin-top: 0px;
+  }
+
+  #shandenMelden .fieldQuestions.area label.personen {
+    padding: 0;
+  }
+
+  form#schadenMeldenForm #dropzone p {
+    font-size: 15px;
+    margin-right: 20px;
+  }
+
+  .partnerItem p {
+    word-break: break-word;
+  }
+
+  p.subTitle {
+    width: 100%;
+  }
+
+  .firmenKunden img {
+    width: 100%;
+  }
+
+  .firmenKunden .col-md-6.box {
+    height: auto;
+    padding-bottom: 70px;
+  }
+
+  ul li span {
+    font-size: 9px;
+  }
+
+  .firmenKunden ul li:before,
+  .firmenKunden ul.pensionskasse li:before {
+    height: 35px;
+  }
+
+  #hausratversicherungFourthQuestion p.versicherungssumme {
+    margin-top: 180px;
+  }
+
+  .sixth-question-form .fieldQuestions {
+    margin-bottom: 20px;
+    line-height: 65px;
+    display: block;
+    height: 70px;
+    text-align: left;
+  }
+
+  .sixth-question-form .fieldQuestions label {
+    width: 100%;
+    text-align: left;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .sixth-question-form .fieldQuestions input {
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin: 0;
+  }
+
+  #hausratversicherungNinthQuestion .sixth-question-form .fieldQuestions label,
+  #hausratversicherungNinthQuestion .sixth-question-form .fieldQuestions input {
+    height: 23px;
+    line-height: 23px;
+  }
+
+  .teamContainer {
+    width: 100%;
+  }
+
+  p.name {
+    font-size: 15px;
+    line-height: 1;
+  }
+
+  p.desc {
+    font-size: 10px;
+  }
+
+  .contactSocialMedia a {
+    padding: 9px 9px 0 0;
+  }
+
+  .motorfahrzeugflottenversicherung ul {
+    height: 395px;
+  }
+
+  .motorfahrzeugflottenversicherung ul li {
+    width: 100%;
+    height: 65px;
+  }
+
+  #main-form {
+    padding-top: 50px;
+  }
+
+  /*#jetztBerechnen {
+		margin-right: 20px;
+	}*/
+  #autoversicherungSeventhQuestion .area .input {
+    width: 60px;
+    margin: 0px 10px 0 0 !important;
+  }
+
+  #autoversicherungEightQuestion .fieldQuestions:first-child .input {
+    width: 72px !important;
+    padding: 0;
+  }
+
+  .scroll_table,
+  .offertenTable {
+    table-layout: fixed;
+    overflow-wrap: break-word;
+  }
+
+  .first-row th {
+    font-size: 16px;
+    width: 95px;
+  }
+
+  .second-row th {
+    font-size: 14px;
+  }
+
+  .downloadPlaces img {
+    width: 100px;
+  }
+
+  .downloadPlaces img:first-child {
+    margin-right: 10px;
+  }
+
+  /* Investoren */
+  #partners.first-section {
+    height: 100% !important;
+    padding-top: 120px !important;
+    padding-bottom: 30px;
+  }
+
+  .first-section span.line-team img {
+    margin-right: 10px;
+  }
+
+  .first-section .cornerText {
+    font-size: 15px;
+    word-spacing: 7px;
+  }
+
+  #team-two .teamContainer.container {
+    width: 100%;
+    padding-top: 120px;
+  }
+
+  #uberuns-two {
+    height: 100% !important;
+    padding-top: 0 !important;
+  }
+
+  #uberuns-two img {
+    width: 50px;
+  }
+
+  .thirst-section canvas#lineChart {
+    background: #fff;
+    padding: 0px;
+  }
+
+  .contactFormular {
+    height: auto;
+  }
+
+  .footerItem {
+    margin-top: 0;
+  }
+
+  .footerItem:nth-child(2) {
+    margin-top: 30px;
+  }
+
+  .footer-section {
+    margin-top: 0 !important;
+  }
+
+  .footer-section #underline {
+    margin-bottom: 0;
+  }
+
+  .footer-section .footerCopyright,
+  .footerCopyright a {
+    height: 0;
+  }
+
+  .footer-section .footerHeaders {
+    font-size: 12px;
+    height: 30px;
+  }
+
+  .last-section {
+    padding-top: 0px !important;
+  }
+
+  .last-section .insurance-app {
+    padding-top: 0 !important;
+    height: 333px;
+  }
+
+  .teamOne::before,
+  .teamTwo::before,
+  .teamThree::before,
+  .teamFour::before,
+  .teamFive::before,
+  .teamSix::before,
+  .teamSeven::before {
+    display: none;
+  }
+
+  /* End of Investoren */
+  .inputForms > div {
+    width: 100% !important;
+    margin: 10px 0 0 !important;
+  }
+
+  #hypothekFirstQuestion .contactEmail span.help-block.form-error {
+    left: 0;
+  }
+
+  #hypothekFirstQuestion .list > div:nth-child(2) {
+    margin-top: 20px !important;
+  }
+
+  #testenForm .fieldQuestions {
+    margin-top: 10px !important;
+  }
+
+  #testenForm .right-element {
+    width: 260px !important;
+    margin-left: auto !important;
+  }
+
+  #testenForm .mt-xs-40 {
+    margin-top: 40px !important;
+  }
+
+  form .inputForms .fieldQuestions {
+    padding-left: 0;
+  }
+
+  .inputForms div .fallback {
+    margin: 20px 0px !important;
+    float: left;
+  }
+
+  .uploadfile + label {
+    margin-bottom: 20px;
+  }
+
+  .inputForms .von-bis {
+    margin: 20px 0 !important;
+    padding: 0;
+  }
+
+  label.visa-label {
+    margin-left: 0;
+    float: left;
+  }
+
+  #reiseversicherungThirdQuestion .inputFieldsForm {
+    top: 0% !important;
+  }
+
+  .questionnaireBottomButtons {
+    background: #fff;
+    z-index: 999;
+    position: fixed;
+  }
+
+  button#jetztOffertenErhalten {
+    position: absolute;
+    left: 1%;
+    right: 1%;
+    width: 150px;
+    margin-top: 0px !important;
+    padding: 0;
+    height: 40px;
+  }
+
+  label.col-xs-12.all-div {
+    line-height: 1;
+    padding-right: 0;
+  }
+
+  .inputForms div:last-child {
+    margin-bottom: 40px !important;
+  }
+
+  #sauleThirdQuestion .horizontal-div,
+  #sauleThirdQuestion .has-error .horizontal-div {
+    margin-top: 40px;
+  }
+
+  #sauleThirdQuestion .inputForms div:last-child {
+    margin-bottom: 100px !important;
+  }
+
+  #erwerbsunfahigkeitFourthQuestion .has-error .form-control {
+    margin-top: 20px;
+  }
+
+  #lebensversicherungFourthQuestion .underlineInputs {
+    margin: 0;
+    margin-top: -10px;
+  }
+
+  #lebensversicherungFourthQuestion label.big-div {
+    line-height: 1;
+  }
+
+  #lebensversicherungFourthQuestion span.help-block.form-error {
+    line-height: 3;
+  }
+
+  .inputForms div .contactEmail {
+    margin-bottom: 0px !important;
+  }
+
+  #hypothekContactForm .inputForms {
+    padding: 0;
+  }
+
+  #hypothekContactForm .contactFormular {
+    padding: 20px 0;
+  }
+
+  .newsItemDesc {
+    padding-right: 22px;
+    margin-left: 0;
+  }
+
+  #works,
+  .about h1 {
+    padding-top: 0px !important;
+  }
+
+  section.body {
+    background-position-y: 280px;
+    background-size: 18%;
+  }
+
+  .fieldQuestions label {
+    font-size: 14px;
+  }
+
+  #lebensversicherungFourthQuestion .inputForms div:last-child {
+    padding-left: 0;
+  }
+
+  div#main-form {
+    padding: 0;
+  }
+
+  #hausratversicherungSeventhQuestion
+    .inputForms
+    .fieldQuestions:nth-child(3)
+    select,
+  #privathaftpflichtFourteenthQuestion
+    .inputForms
+    .fieldQuestions:nth-child(3)
+    select {
+    height: 30px;
+  }
+
+  #hausratversicherungSeventhQuestion
+    .sixth-question-form
+    .fieldQuestions:last-child {
+    margin-top: 5px;
+    padding-top: 8px;
+  }
+
+  #hausratversicherungSeventhQuestion .autoQuestionButtons > div:last-child,
+  #privathaftpflichtFourteenthQuestion .inputForms > div:last-child {
+    margin-bottom: 50px !important;
+  }
+
+  #hausratversicherungSeventhQuestion
+    .sixth-question-form:nth-child(2)
+    .help-block.form-error,
+  #privathaftpflichtFourteenthQuestion
+    .sixth-question-form:nth-child(2)
+    .help-block.form-error {
+    margin-left: 0 !important;
+  }
+
+  #hausratversicherungSeventhQuestion .sixth-question-form:nth-child(4),
+  #privathaftpflichtFourteenthQuestion .sixth-question-form:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  #jetztBerechnen,
+  #continueKontaktdaten {
+    margin: 22px auto 80px;
+  }
+
+  #btn-offerte {
+    margin: 22px auto 100px;
+  }
+
+  #news {
+    height: auto !important;
+  }
+
+  #news .newsItemImage img {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 0px;
+  }
+
+  .contactSocialMedia {
+    width: 80px;
+  }
+
+  #reiseversicherungFirstQuestion .inputForms div:last-child {
+    margin-bottom: 100px !important;
+  }
+
+  .inputFieldsForm {
+    height: calc(100vh - 250px);
+    overflow-y: auto;
+    padding-left: 0;
+  }
+
+  #testenForm .inputFieldsForm {
+    height: calc(100vh - 100px);
+  }
+
+  #hausratversicherungSixthQuestion p.versicherungssumme {
+    margin-top: 20px;
+  }
+
+  #main-form {
+    height: 100%;
+  }
+
+  #loader_id {
+    margin-bottom: 50px !important;
+  }
+
+  .insuranceQuestionsSecondColumn {
+    padding-bottom: 50px;
+  }
+
+  #hausratversicherungSeventhQuestion .area div:last-child {
+    margin-bottom: 50px !important;
+  }
+
+  .height-static-scroll-controll {
+    width: 100% !important;
+    margin: 0;
+  }
+
+  .sixth-question-form {
+    padding-right: 0;
+  }
+
+  #hausratversicherungNinthQuestion .fieldQuestions:first-child .input,
+  #privathaftpflichtFourteenthQuestion .fieldQuestions:first-child .input {
+    width: 85px !important;
+  }
+
+  #hausratversicherungNinthQuestion
+    .inputForms
+    .fieldQuestions:nth-child(3)
+    select {
+    width: 100% !important;
+    margin-left: 0;
+    height: 30px;
+  }
+
+  .height-static-scroll-controll .sixth-question-form {
+    padding: 0;
+  }
+
+  .sixth-question-form .fieldQuestions {
+    padding-left: 0;
+  }
+
+  #hausratversicherungNinthQuestion
+    .sixth-question-form:first-child
+    .fieldQuestions:nth-child(6)
+    label {
+    line-height: 1;
+    width: 100% !important;
+  }
+
+  #erwerbsunfahigkeitFifthQuestion .inputFieldsForm.inputForms {
+    top: 0;
+    height: calc(100vh - 300px);
+    padding-left: 0;
+  }
+
+  #hausratversicherungSeventhQuestion .autoQuestionButtons {
+    height: auto;
+    padding-bottom: 15px;
+  }
+
+  #hausratversicherungEightQuestion .input {
+    margin-bottom: 20px;
+  }
+
+  #autoversicherungFifthQuestion .area {
+    margin-top: 0px !important;
+    top: 0;
+  }
+
+  .contactContainer {
+    height: auto !important;
+  }
+
+  .contactData {
+    height: 435px;
+  }
+
+  #erwerbsunfahigkeitSecondQuestion .area.flex-space-between.inline-block {
+    padding: 0 15px;
+  }
+
+  .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+
+  #reiseversicherungSecondQuestion .autoQuestionButtons {
+    top: 2% !important;
+  }
+
+  #erwerbsunfahigkeitSecondQuestion
+    div:nth-child(2)
+    .area.flex-space-between.inline-block,
+  #erwerbsunfahigkeitSecondQuestion
+    div:nth-child(4)
+    .area.flex-space-between.inline-block {
+    padding: 0;
+  }
+
+  #erwerbsunfahigkeitThirdQuestion .inputForms,
+  #lebensversicherungThirdQuestion .inputForms {
+    top: 0;
+  }
+
+  #erwerbsunfahigkeitThirdQuestion
+    .inputForms
+    div
+    .area.inline-block.display-flex.flex-space-between,
+  #lebensversicherungThirdQuestion
+    .inputForms
+    div
+    .area.inline-block.display-flex.flex-space-between {
+    margin-bottom: 0 !important;
+  }
+
+  #erwerbsunfahigkeitThirdQuestion .autoQuestionSubtitle,
+  #lebensversicherungThirdQuestion .autoQuestionSubtitle {
+    margin-bottom: 10px;
+  }
+
+  .inline-block span {
+    margin-bottom: 10px;
+  }
+
+  #lebensversicherungSecondQuestion
+    .inputForms
+    .inline-block
+    .area.flex-space-between.inline-block {
+    padding: 0 15px;
+  }
+
+  #hausratversicherungFifthQuestion .autoQuestionButtons {
+    top: 7%;
+    margin-left: 15px;
+  }
+
+  #hausratversicherungSixthQuestion .autoQuestionButtons div {
+    margin: 0;
+    width: 91.66666667%;
+  }
+
+  #hausratversicherungSixthQuestion p.versicherungssumme {
+    margin-top: 7px;
+  }
+
+  #hausratversicherungNinthQuestion p.sixth-question-p {
+    margin: -10px 0 10px;
+    line-height: normal;
+  }
+
+  #privathaftpflichtFourteenthQuestion .inputForms .visa-type .col-xs-12 {
+    margin: 10px 0 !important;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  #privathaftpflichtFourteenthQuestion .fieldQuestions.area label.visa-label-2 {
+    text-align: left;
+  }
+
+  .visa-type span.input {
+    width: 32px !important;
+    margin-right: 7px !important;
+    margin-left: 0px !important;
+  }
+
+  #hausratversicherungSeventhQuestion .autoQuestionButtons {
+    top: 0;
+  }
+
+  #hausratversicherungSeventhQuestion .autoQuestionButtons {
+    top: 0;
+  }
+
+  #hausratversicherungNinthQuestion .fieldQuestions.area.visa-type {
+    height: auto;
+  }
+
+  #hausratversicherungNinthQuestion .inputForms .visa-type .col-xs-12 {
+    margin: 10px 0 0 0 !important;
+  }
+
+  #hausratversicherungNinthQuestion .visa-type .col-xs-12 span.input label {
+    height: auto;
+    line-height: 47px;
+  }
+
+  #hausratversicherungNinthQuestion .visa-type span.input:first-child {
+    margin-left: -15px !important;
+  }
+
+  #privathaftpflichtThirdQuestion .autoQuestionButtons {
+    height: calc(100vh - 280px);
+    overflow-y: auto;
+  }
+
+  .close-popdown {
+    margin-top: -6px;
+    position: relative;
+    right: 0;
+  }
+
+  #shandenMelden .close-popdown.butonX {
+    position: absolute;
+    right: 30px;
+  }
+
+  .firmenKunden .box:nth-child(1) ul li::before {
+    height: 35px;
+  }
+
+  .firmenKunden .box:nth-child(1) ul li:last-child::before,
+  .firmenKunden .box:nth-child(3) ul li:nth-child(5)::before {
+    height: 50px;
+  }
+
+  .firmenKunden .box:nth-child(3) ul li:nth-child(4)::before {
+    height: 65px;
+  }
+
+  .firmenKunden .motorfahrzeugflottenversicherung ul li:before {
+    height: 100px;
+  }
+
+  .firmenKunden .box:last-child ul li::before {
+    height: 20px;
+    float: left;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .notification {
+    display: none !important;
+  }
+
+  #partners {
+    height: 100% !important;
+  }
+
+  .bannerText {
+    margin: 15% 0;
+    left: 63px;
+  }
+
+  .bottomIcons {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar-brand img {
+    width: 180px;
+  }
+  .security-container {
+    justify-content: space-around;
+  }
+
+  .security-element {
+    flex: 0 0 40%;
+    width: 40%;
+  }
+
+  .mobile_team .team-clicker {
+    display: inline-block;
+    width: 45%;
+  }
+
+  .contactData .col-xs-6.col-md-6:before {
+    font-size: 40px;
+    margin-right: 6px;
+  }
+
+  .contactData .col-xs-6 p {
+    border-bottom-style: none;
+  }
+
+  .contactData
+    .col-xs-6
+    .firmenKunden
+    .box:nth-child(1)
+    ul
+    li:nth-child(3)::before,
+  .firmenKunden .box:nth-child(1) ul li:nth-child(4)::before,
+  .firmenKunden .box:nth-child(1) ul li:nth-child(5)::before {
+    height: 50px;
+  }
+
+  .firmenKunden .box:nth-child(1) ul li:last-child::before {
+    height: 70px;
+  }
+
+  .firmenKunden .box:last-child ul li::before {
+    height: 38px;
+    float: left;
+  }
+
+  .firmenKunden ul.pensionskasse li:nth-child(3):before,
+  .firmenKunden .box:nth-child(3) ul li:last-child::before,
+  .firmenKunden ul.pensionskasse li:nth-child(7):before {
+    height: 50px;
+  }
+
+  .firmenKunden .box:nth-child(3) ul li:nth-child(5)::before {
+    height: 65px;
+  }
+
+  .firmenKunden .box:nth-child(3) ul li:nth-child(4)::before {
+    height: 70px;
+  }
+
+  .firmenKunden .box:nth-child(3) ul li:nth-child(4) {
+    word-break: break-all;
+  }
+
+  .motorfahrzeugflottenversicherung ul li:first-child {
+    height: 80px;
+  }
+
+  .motorfahrzeugflottenversicherung ul li:nth-child(2) {
+    height: 50px;
+  }
+
+  .motorfahrzeugflottenversicherung ul li:nth-child(3) {
+    height: 80px;
+  }
+
+  .motorfahrzeugflottenversicherung ul li:nth-child(4),
+  .motorfahrzeugflottenversicherung ul li:nth-child(5) {
+    height: 50px;
+  }
+
+  ul.cyberversicherung {
+    float: left;
+    width: 100%;
+    padding: 0;
+  }
+
+  ul.cyberversicherung li span {
+    font-size: 8px;
+    padding: 0;
+  }
+
+  #hausratversicherungSeventhQuestion .autoQuestionButtons {
+    padding-bottom: 170px;
+  }
+
+  #hausratversicherungNinthQuestion .height-static-scroll-controll,
+  #privathaftpflichtFourteenthQuestion .height-static-scroll-controll {
+    padding-bottom: 70px;
+  }
+
+  .autoQuestionButtons {
+    top: 7%;
+  }
+
+  .autoQuestionButtons div {
+    margin-bottom: 10px;
+  }
+
+  .first-section .cornerText {
+    font-size: 12px;
+    word-spacing: 5px;
+  }
+
+  #lebensversicherungFourthQuestion .fieldQuestions {
+    height: 95px;
+  }
+
+  .fallback p {
+    font-size: 12px;
+  }
+
+  .uploadfile + label {
+    padding: 5px;
+  }
+
+  #erwerbsunfahigkeitFourthQuestion .horizontal-div {
+    margin-top: 30px !important;
+  }
+
+  form#schadenMeldenForm #dropzone {
+    background-position-x: 10px;
+    background-size: 40px auto;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .team_member .tel div,
+  .team_member .mail div {
+    display: block;
+  }
+  .contact-details {
+    padding-left: 0;
+  }
+  .contact-details img {
+    float: none;
+  }
+}
+
+

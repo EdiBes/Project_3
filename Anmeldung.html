@@ -1,0 +1,435 @@
+<html lang="de">
+  <head>
+  
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+  
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="x-rim-auto-match" content="none" />
+    <title>Luzerner Versicherungen</title>
+
+    <!-- Google fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Barlow:400,500,600,600i"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+
+    
+
+    <!-- animate.css -->
+    <link rel="stylesheet" href="assets/animate/animate.css" />
+    <link rel="stylesheet" href="assets/animate/set.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+
+    <link rel="stylesheet" href="styling/style.css" />
+    <link rel="stylesheet/scss" type="text/scss" href="assets/checkmark.scss" /> 
+    
+  </head>
+  <body data-new-gr-c-s-check-loaded="14.1041.0" data-gr-ext-installed="">
+    <div class="page-wrapper">
+      <div class="topbar animated fadeInLeftBig"></div>
+      <!-- Header Starts -->
+      <div class="navbar-wrapper">
+        <div class="container">
+          <div
+            class="navbar navbar-inverse navbar-fixed-top"
+            role="navigation"
+            id="top-nav"
+          >
+            <div class="container">
+              <div class="icons-gradient-back1"></div>
+              <div class="icons-gradient-back2"></div>
+              <div class="icons-wrapper col-md-12 col-sm-12 col-xs-12">
+                <div class="navbar-header">
+                  <!-- Logo Starts -->
+                  <a class="navbar-brand" href="copy.html"
+                    ><img
+                      src="https://luzernerversicherungen.ch/images/logos/logo.svg"
+                      alt="logo"
+                  /></a>
+                  <!-- #Logo Ends -->
+                </div>
+
+                <!-- Nav Starts -->
+                <div class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav navbar-right scroll">
+                    <li class="active">
+                      <a href="copy.html" class="hvr-underline-from-center"
+                        >Homepage</a
+                      >
+                    </li>
+                    <li class="active">
+                      <a href="#login" class="hvr-underline-from-center"
+                        >Login</a
+                      >
+                    </li>
+                    
+                    
+                  </ul>
+                </div>
+                <!-- #Nav Ends -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- #Header Starts -->
+
+      <!-- Home -->
+      <div id="home">
+        <!-- Slider Starts -->
+        <div
+          id="myCarousel"
+          class="desktop carousel slide banner-slider animated bounceInDown"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <!-- Item 1 -->
+            <div class="item active">
+              <img
+                src="https://luzernerversicherungen.ch/images/slide1.jpg"
+                alt="banner"
+              />
+              
+            </div>
+            <!-- #Item 1 -->
+          </div>
+          <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon-chevron-left"><i class="fa fa-angle-left"></i></span></a> -->
+          <!-- <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon-chevron-right"><i class="fa fa-angle-right"></i></span></a> -->
+        </div>
+        <!-- #Slider Ends -->
+
+        <!-- Welcome Text -->
+        
+        <div class="bannerText">
+          <p class="willcomenText">Willkommen</p>
+          <p class="kompetentText">
+            im Bonusprogramm der<br />
+            <span class="beratenText"> Luzerner Versicherungen AG !</span>
+          </p>
+          <img
+            src="https://luzernerversicherungen.ch/images/underline_slide_txt.png"
+            alt="underline"
+          />
+          <p class="smallText">
+            Melden Sie sich in ihrem Kundenkonto an und lösen Sie ihre Vorteile ein.
+          </p>
+        </div>
+        
+
+        <!-- Bottom Icons -->
+        <div class="bottomIcons">
+          <div class="bottomSingleIcon">
+            <img
+              src="https://luzernerversicherungen.ch/images/logos/100.png"
+              alt="medal logo"
+            />
+          </div>
+          <div class="bottomAllIcons">
+            <img
+              src="https://luzernerversicherungen.ch/images/logos/cicero.svg"
+              alt="cicero logo"
+            />
+            <img
+              src="https://luzernerversicherungen.ch/images/logos/fpv.svg"
+              alt="fpv logo"
+            />
+            <img
+              src="https://luzernerversicherungen.ch/images/logos/svvia.svg"
+              alt="svvia logo"
+            />
+          </div>
+
+          <br><br><br><br><br><br><br><br><br>
+
+          <div class="form">
+            <form id="formToSwitch1" class="form-login">
+            <p class="willcomenText" id="login">Melden Sie sich in ihrem Konto an</p>
+            <label class="control-label" for="email">Firmenname:</label>
+            <input type="text" id="username" placeholder="Firmenname">
+            <label class="control-label" for="email">Passwort:</label>
+            <input type="password" id="password" placeholer="Passwort">
+            <button class=" btn-sm btn-primary "type="button" onclick="getInfo()">Login</button>
+            <br><br>
+            <p class="message">Noch kein Konto? <a onclick="switchForm()"> Registrieren</a></p>   
+          </form>
+                    
+          <form id="formToSwitch2" class="form-register">
+            <p class="willcomenText" id="login">Konto erstellen</p>
+            <label class="control-label" for="email">Firmenname:</label>
+            <input type="text" id="newUsername" placeholder="Firmenname">
+            <label class="control-label" for="email">Passwort:</label>
+            <input type="password" id="newPassword" placeholer="Passwort">
+            <button id = "btn" class=" btn-sm btn-primary "type="button" >Registrieren</button>
+            <br><br>
+            <p class="message">Bereits Kunde? <a onclick="switchForm()"> Anmelden</a></p>  
+          </form>
+        </div>
+
+        <script>
+          var objPeople = [
+          {
+            // Object @ 0 index
+            username: "Owner",
+            password: "Start123!",
+          },
+          {
+            // Object @ 1 index
+            username: "Edi",
+            password: "Academy",
+          },
+          ];
+          const addUser = (ev) => {
+            ev.preventDefault(); //to stop the form submitting
+            let user = {
+              username: document.getElementById("newUsername").value,
+              password: document.getElementById("newPassword").value,
+            };
+            objPeople.push(user);
+            document.forms[0].reset(); // to clear the form for the next entries
+            //document.querySelector('form').reset();
+
+            //for display purposes only
+            console.warn("added", { objPeople });
+            let pre = document.querySelector("#msg pre");
+            pre.textContent = "\n" + JSON.stringify(objPeople, "\t", 2);
+
+            //saving to localStorage
+            localStorage.setItem("userList", JSON.stringify(objPeople));
+          };
+          document.addEventListener("DOMContentLoaded", () => {
+            document.getElementById("btn").addEventListener("click", addUser);
+          });
+
+        </script>  
+          
+
+          <br><br>
+
+          
+        </div>
+        
+        <!-- #Bottom Icons Ends-->
+        <img
+          class="underline_slide desktop_underline"
+          src="https://luzernerversicherungen.ch/images/underline_slide.png"
+          alt="underline"
+        />
+        <img
+          class="underline_slide mobile_underline"
+          src="https://luzernerversicherungen.ch/images/underline_slide.svg"
+          alt="underline"
+        />
+      </div>
+      <!-- Home Ends -->
+      <!--News -->
+      <a href="#home" class="gototop"><i class="fa fa-angle-up fa-3x"></i></a>  
+    </div>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br>
+    
+    
+    
+   
+    <!-- Footer Starts -->
+    <div class="footer clearfix spacer">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="container footerItems">
+        <div class="col-xs-12 col-md-4 footerItem">
+          
+          <p class="footerHeaders">Über uns</p>
+          <p class="footerDesc">
+            Liken Sie unsere Facebookseite um stets auf dem neusten Stand zu
+            bleiben!
+          </p>
+          <div class="contactSocialMedia">
+            <a
+              href="https://www.facebook.com/Luzerner-Versicherungen-AG-633292766764084/?ref=bookmarks"
+              target="_blank"
+              ><img src="https://luzernerversicherungen.ch/images/logos/fb.svg" alt="fb logo" id="fb_img"
+            /></a>
+            <a
+              href="https://www.instagram.com/luzerner_versicherungen/"
+              target="_blank"
+              ><img src="https://luzernerversicherungen.ch/images/logos/in.svg" alt="ig logo" id="insta_img"
+            /></a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 footerItem">
+          <p class="footerHeaders">Kontakt</p>
+          <div class="footerDescItem">
+            <img src="https://luzernerversicherungen.ch/images/logos/phone.svg" alt="phone icon" />
+            <p>Telefon: +41 (0) 41 982 05 55</p>
+          </div>
+          <div class="footerDescItem">
+            <img src="https://luzernerversicherungen.ch/images/logos/mail.svg" alt="mail icon" />
+            <p>E-Mail: info@luzernerversicherungen.ch</p>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-4 footerItem">
+          <p class="footerHeaders">Öffnungszeiten &amp; Standorte</p>
+          <div class="footerDescItem">
+            <img src="https://luzernerversicherungen.ch/images/logos/time.svg" alt="time icon" />
+            <p>
+              Montag-Freitag:<br />
+              08:00 - 11:45 / 13:15 - 17:00
+            </p>
+          </div>
+          <div class="footerDescItem">
+            <img src="https://luzernerversicherungen.ch/images/logos/location.svg" alt="location icon" />
+            <p>
+              Geschäftssitz:<br />
+              Gewerbestrasse 11, 6248 Alberswil
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="underline"></div>
+
+      <div class="footerCopyright text-center col-xs-8 col-xs-offset-2">
+        <i class="fa fa-copyright" aria-hidden="true"></i>
+        <span>Copyright</span
+        ><a href="https://www.swa-it.com/" target="_blank">
+          - Luzerner Versicherungen - Website von SWA IT AG - </a
+        ><span>Impressum</span>
+      </div>
+    </div>
+    <!-- # Footer Ends -->
+    
+
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <!-- <script src="assets/jquery.js"></script> -->
+
+    
+
+    
+
+    <!-- sass css -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/sass.js/0.6.3/sass.min.js"></script>
+
+    <!-- boostrap -->
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+
+    <!-- jquery mobile -->
+    <script src="assets/mobile/touchSwipe.min.js"></script>
+    <script src="assets/respond/respond.js"></script>
+
+    
+
+    <!-- custom script -->
+    <script src="script/script.js"></script>
+    <script src="assets/dropzone.js"></script>
+
+    <!-- validator script -->
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.79/jquery.form-validator.min.js"
+      integrity="sha512-7+hQkXGIswtBWoGbyajZqqrC8sa3OYW+gJw5FzW/XzU/lq6kScphPSlj4AyJb91MjPkQc+mPQ3bZ90c/dcUO5w=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- main script -->
+    <script src="assets/main.js"></script>
+
+    <!-- Login script-->
+    <script src="script/login.js"></script>
+
+    <!-- Bootstrap Date-Picker Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.8.0/js/bootstrap-datepicker.min.js"></script>
+    
+    <script>
+      $(document).ready(function () {
+        var modal = $("#modalContent").clone();
+        $(".show-modal").click(function () {
+          $("#modalContent").remove();
+          modal.clone().appendTo(".tab_container");
+        });
+
+        if (detectMob()) {
+          var hvrElements = $(".hvr-shutter-out-horizontal");
+          hvrElements.each(function () {
+            if (!$(this).hasClass("hvr-mobile")) {
+              hvrElements.addClass("hvr-mobile");
+            }
+          });
+        }
+      });
+
+      // Page scroll with link clicks
+      $(
+              'a[href="#login"]'
+            ).on("click", function (e) {
+              e.preventDefault();
+              var element = $(this).attr("href");
+              var offset = $(element).offset().top;
+              $("html, body").animate(
+                {
+                  scrollTop: offset,
+                },
+                800
+              );
+            });
+
+      // Detecting Mobile devices function
+      function detectMob() {
+        const toMatch = [
+          /Android/i,
+          /webOS/i,
+          /iPhone/i,
+          /iPad/i,
+          /iPod/i,
+          /BlackBerry/i,
+          /Windows Phone/i,
+        ];
+
+        return toMatch.some((toMatchItem) => {
+          return navigator.userAgent.match(toMatchItem);
+        });
+      }
+
+      /* if in drawer mode */
+      $(".tab_drawer_heading").click(function () {
+        $(".tab_content").hide();
+        var d_activeTab = $(this).attr("rel");
+        $("#" + d_activeTab).fadeIn();
+
+        $(".tab_drawer_heading").removeClass("d_active");
+        $(this).addClass("d_active");
+
+        $("ul.listTabs li").removeClass("active");
+        $("ul.listTabs li[rel^='" + d_activeTab + "']").addClass("active");
+      });
+
+      /* Extra class "tab_last" to add border to right side of last tab */
+      $("ul.listTabs li").last().addClass("tab_last");
+
+    </script>
+      
+    </div>
+  </body>
+  <grammarly-desktop-integration
+    data-grammarly-shadow-root="true"
+  ></grammarly-desktop-integration>
+</html>
